@@ -23739,19 +23739,28 @@ module.exports = ReactDOMInvalidARIAHook;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = Square;
+exports.default = Header;
 
 var _react = __webpack_require__(90);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _navigationBar = __webpack_require__(275);
+
+var _navigationBar2 = _interopRequireDefault(_navigationBar);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function Square(props) {
+function Header(props) {
   return _react2.default.createElement(
-    "p",
-    { className: "text-primary" },
-    " Hello I am Header "
+    'div',
+    null,
+    _react2.default.createElement(
+      'p',
+      { className: 'text-primary' },
+      ' Hello I am Header '
+    ),
+    _react2.default.createElement(_navigationBar2.default, null)
   );
 }
 
@@ -24348,6 +24357,91 @@ function toComment(sourceMap) {
 	return '/*# ' + data + ' */';
 }
 
+
+/***/ }),
+/* 275 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = NavigationBar;
+
+var _react = __webpack_require__(90);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function NavigationBar(props) {
+  return _react2.default.createElement(
+    "nav",
+    { className: "navbar navbar-expand-lg navbar-light bg-light" },
+    _react2.default.createElement(
+      "a",
+      { className: "navbar-brand", href: "#" },
+      "Navbar"
+    ),
+    _react2.default.createElement(
+      "button",
+      { className: "navbar-toggler", type: "button", "data-toggle": "collapse", "data-target": "#navbarTogglerDemo02", "aria-controls": "navbarTogglerDemo02", "aria-expanded": "false", "aria-label": "Toggle navigation" },
+      _react2.default.createElement("span", { className: "navbar-toggler-icon" })
+    ),
+    _react2.default.createElement(
+      "div",
+      { className: "collapse navbar-collapse", id: "navbarTogglerDemo02" },
+      _react2.default.createElement(
+        "ul",
+        { className: "navbar-nav mr-auto mt-2 mt-lg-0" },
+        _react2.default.createElement(
+          "li",
+          { className: "nav-item active" },
+          _react2.default.createElement(
+            "a",
+            { className: "nav-link", href: "#" },
+            "Home ",
+            _react2.default.createElement(
+              "span",
+              { className: "sr-only" },
+              "(current)"
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "li",
+          { className: "nav-item" },
+          _react2.default.createElement(
+            "a",
+            { className: "nav-link", href: "#" },
+            "Link"
+          )
+        ),
+        _react2.default.createElement(
+          "li",
+          { className: "nav-item" },
+          _react2.default.createElement(
+            "a",
+            { className: "nav-link disabled", href: "#" },
+            "Disabled"
+          )
+        )
+      ),
+      _react2.default.createElement(
+        "form",
+        { className: "form-inline my-2 my-lg-0" },
+        _react2.default.createElement("input", { className: "form-control mr-sm-2", type: "text", placeholder: "Search" }),
+        _react2.default.createElement(
+          "button",
+          { className: "btn btn-outline-success my-2 my-sm-0", type: "submit" },
+          "Search"
+        )
+      )
+    )
+  );
+}
 
 /***/ })
 /******/ ]);
