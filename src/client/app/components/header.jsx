@@ -1,5 +1,7 @@
-export default class Header extends React.Component {
-  render () {
-    return <h1>Header</h1>;
-  }
+import React from 'react';
+
+ export default function Square(props) {
+  return (
+<p> Hello I am Header </p>
+  );
 }

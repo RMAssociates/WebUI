@@ -13,24 +13,40 @@ var config = {
     publicPath: '/src/client',
     filename: 'bundle.js'
   },
-  module : {
-    loaders : [
-                {
-                    test : /\.jsx?/,
-                    exclude : /node_modules/,
-                    include : APP_DIR,
-                    loader : 'babel',
-                    // Options to configure babel with
-                    query: {
-                      plugins: ['transform-runtime'],
-                      presets: ['es2015', 'stage-0'],
-                    }
-                }
-            ]
-            },
+  module: {
+    rules: [
+      {
+        test: /\.jsx$/,
+        exclude: /(node_modules|bower_components)/,
+        include : APP_DIR,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['env'],
+            cacheDirectory: true,
+          }
+        }
+      }
+    ]
+  },
+  // module : {
+  //   loaders : [
+  //               {
+  //                   test : /\.jsx?/,
+  //                   exclude : /node_modules/,
+  //                   include : APP_DIR,
+  //                   loader : 'babel',
+  //                   // Options to configure babel with
+  //                   query: {
+  //                     plugins: ['transform-runtime'],
+  //                     presets: ['es2015', 'stage-0'],
+  //                   }
+  //               }
+  //           ]
+  //           },
   plugins: [
-  new webpack.optimize.OccurenceOrderPlugin(),
-  new webpack.NoErrorsPlugin(),
+  // new webpack.optimize.OccurenceOrderPlugin(),
+  // new webpack.NoErrorsPlugin(),
   new BrowserSyncPlugin({
       // browse to http://localhost:3000/ during development,
       // ./public directory is being served
