@@ -2,6 +2,7 @@ var webpack = require('webpack');
 var path = require('path');
 var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 var bs = require("browser-sync").create();
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 var BUILD_DIR = path.resolve(__dirname, 'src/client/public');
 var APP_DIR = path.resolve(__dirname, 'src/client/app');
@@ -47,6 +48,7 @@ var config = {
           loader: 'sass-loader' // compiles SASS to CSS
         }]
       },
+      { test: /\.(jpe?g|gif|png|svg|woff|ttf|wav|mp3)$/, loader: "file" },
     ]
   },
   // module : {
@@ -82,7 +84,11 @@ var config = {
       // In case you imported plugins individually, you must also require them here:
       Util: "exports-loader?Util!bootstrap/js/dist/util",
       Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown",
-    })
+    }),
+    new CopyWebpackPlugin([ 
+            // Copy directory contents to {output}/to/directory/
+            { from: APP_DIR + '/assets', to: BUILD_DIR + '/assets' },
+    ])
    // new BrowserSyncPlugin({
    //      host: 'localhost',
    //      port: 3000,
