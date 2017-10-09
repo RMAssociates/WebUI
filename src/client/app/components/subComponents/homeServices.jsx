@@ -3,7 +3,7 @@ import React from 'react';
 export default function HomeServices(props) {
 	return (
 
-		<div className="album text-muted">
+		<div className="album text-muted mb-5">
 			<div className="container-fluid">
 				<div className="row">
 					<div className="card col-md-4">
