@@ -23,7 +23,9 @@ class App extends React.Component {
 					<div>				
 						<Route exact path="/" component={HomeContainer} />
 						<Route path="/services" component={ServiceContainer} />
-						<div id ="responsive-reviews-module"></div>
+						<div className="col-sm-4" id ="responsive-reviews-module"></div>
+						
+						<div className="col-sm-8">hhhhhh</div>
 						<Footer />
 					</div>
 				</div>

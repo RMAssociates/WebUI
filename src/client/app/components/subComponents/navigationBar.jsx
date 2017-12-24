@@ -21,7 +21,19 @@ export default function NavigationBar(props) {
 						<Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link" to="/services">Services</Link>							
+						
+						<div className="dropdown">
+							<button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    							Services
+							</button>
+							<div className="dropdown-menu" aria-labelledby="dropdownMenu2">
+								<Link className="dropdown-item" to={'services/rendering'}>1</Link>
+								<Link className="dropdown-item" to={'services/rendering'}>2</Link>
+								<Link className="dropdown-item" to={'services/rendering'}>3</Link>
+								<button   type="button">Another action</button>
+								<button className="dropdown-item" type="button">Something else here</button>
+							</div>
+						</div>							
 					</li>
 					<li className="nav-item">							
 						<Link className="nav-link" to="/">About</Link>

@@ -5,29 +5,16 @@ import {
 } from 'react-router-dom';
 
 export const ServiceContainer = ({ match }) => (
-	<div>
-		<h2>Services</h2>
-		<ul>
-			<li>
-				<Link to={`${match.url}/rendering`}>
-            Rendering with React
-				</Link>
-			</li>
-			<li>
-				<Link to={`${match.url}/components`}>
-            Components
-				</Link>
-			</li>
-			<li>
-				<Link to={`${match.url}/props-v-state`}>
-            Props v. State
-				</Link>
-			</li>
-		</ul>
-  
-		{/* <Route path={`${match.url}/:topicId`} component={Topic}/> */}
-		<Route exact path={match.url} render={() => (
-			<h3>Please select a topic.</h3>
-		)}/>
+	<div className="dropdown show">
+		<a className="btn btn-secondary dropdown-toggle" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown link
+		</a>
+
+		<div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+			<Link to={`${match.url}/rendering`}>Rendering with React</Link>
+			<a className="dropdown-item" href="#">Another action</a>
+			<a className="dropdown-item" href="#">Something else here</a>
+		</div>
 	</div>
+	
 );
