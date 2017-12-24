@@ -6,7 +6,7 @@ export default function Header(props) {
 		<div className="">
 			<div className="row">
 				<div className="col-sm-3">
-					<img className="img-fluid" src="public/assets/logo_white_b.jpg" alt="First slide" />
+					{/* <img className="img-fluid" src="public/assets/logo_white_b.jpg" alt="First slide" /> */}
 				</div>
 				<div className="col-sm-6"><p></p></div>
 				<div className="col-sm-3">
