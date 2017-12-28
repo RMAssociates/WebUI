@@ -3,10 +3,10 @@ import React from 'react';
 export default function HomeServices(props) {
 	return (
 
-		<div className="album text-muted mb-5 mt-2 ">
+		<div className="album text-muted mb-5 mt-2 d-none d-md-block">
 			<div className="container-fluid">
 				<div className="row">
-					<div className="card col-md-4 hidden-md-down">
+					<div className="card col-md-4">
 						<img 
 							className = "img-fluid"
 							data-src="holder.js/100px280/thumb" alt="100%x280" 

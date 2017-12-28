@@ -19,7 +19,7 @@ class App extends React.Component {
 				<div className="container-fluid">
 					<Header />
 					<Route exact path="/" component={HomeContainer} />
-					<div>				
+					<div className="row">				
 						<Routes />
 						<div className="col-md-4" id ="responsive-reviews-module"></div>
 						
