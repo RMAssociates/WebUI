@@ -10,8 +10,11 @@ export default function NavigationBar(props) {
 	return (
 
 		<nav className="navbar navbar-expand-lg navbar-dark bg-success">
-			<a className="navbar-brand" href="#"><img className="img-fluid" src="public/assets/logo_white_b.jpg" alt="First slide" /></a>
-			<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			<a className="navbar-brand" href="#">
+				<img className="float-sm-left img-fluid" src="public/assets/logo_white_b.jpg" alt="First slide" /></a>
+			<button className="navbar-toggler" type="button" 
+				data-toggle="collapse" data-target="#navbarTogglerDemo02" 
+				aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 				<span className="navbar-toggler-icon"></span>
 			</button>
 
@@ -36,19 +39,19 @@ export default function NavigationBar(props) {
 						</div>							
 					</li>
 					<li className="nav-item">							
-						<Link className="nav-link" to="/">About</Link>
+						<Link className="nav-link" to="/about-us">About Us</Link>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#">Gallery</a>
+						<Link className="nav-link" to="/gallery">Gallery</Link>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#">Meet Us</a>
+						<Link className="nav-link" to="/meet-us">Meet Us</Link>						
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#">Promotions</a>
+						<Link className="nav-link" to="/promotions">Promotions</Link>						
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#">Contact</a>
+						<Link className="nav-link" to="/contact">Contact</Link>						
 					</li>
 				</ul>
 				<form className="form-inline my-2 my-lg-0">

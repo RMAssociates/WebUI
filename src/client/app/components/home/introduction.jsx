@@ -12,8 +12,8 @@ export default function Introduction() {
 			<p className="col-sm-12 pt-3">
 				For the past several years we have provided dental services to your neighbours in Leaside and the surrounding areas.
 				Led by Dr. Sohila Methani, who features close to 20 years of dental experience, our practice creates an
-				 environment of care and trust. Our wide range of services conveniently address your oral care needs.
-				 Call us at 647-346-3368 for more information or to schedule your free initial consultation appointment!
+				environment of care and trust. Our wide range of services conveniently address your oral care needs.
+				Call us at 647-346-3368 for more information or to schedule your free initial consultation appointment!
 			</p>
 			<ul>
 			Why choose us?
