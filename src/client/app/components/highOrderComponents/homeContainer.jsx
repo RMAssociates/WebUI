@@ -4,7 +4,7 @@ import HomeServices from '../home/homeServices.jsx';
 import Introduction from '../home/introduction.jsx';
 
 export const HomeContainer = () => (
-	<div>
+	<div className="row">
 		<Carousel />
 		<HomeServices />
 		<Introduction />

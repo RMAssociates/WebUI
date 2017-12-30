@@ -1,20 +1,21 @@
 import React from 'react';
+import { RequestAppointment } from '../subComponents/request-appointment.jsx';
 
 export default function Introduction() {
 	return (
-		<div className="row col-sm-12 pt-5">
-			<h1 className="col-sm-12 text-success mb-1">Welcome to Leaside Village Dental</h1>	
-			<h3 className="col-sm-12 text-muted mb-2">Offering professional oral care solutions.
+		<div className="col-sm-12 pt-1">
+			<h1 className="col-sm-12 text-success mb-1 d-none d-md-block">Welcome to Leaside Village Dental</h1>	
+			<h3 className="col-sm-12 text-muted mb-2 d-none d-md-flex">Offering professional oral care solutions.
 			Changing lives for the better, One smile at a time</h3>
-			<p className="col-sm-12 pt-3">
-					Looking for a comfortable, relaxing and anxiety free dental care experience? Visit our team at Leaside Village Dental!
+			<p className="col-sm-12 bg-highlighter-green text-light py-1 lead">
+					Our patients love us , Read what our patients have to say About us or come in and find out why
 			</p>
-			<p className="col-sm-12 pt-3">
+			<p className="col-sm-12 pt-2">
 				For the past several years we have provided dental services to your neighbours in Leaside and the surrounding areas.
 				Led by Dr. Sohila Methani, who features close to 20 years of dental experience, our practice creates an
 				environment of care and trust. Our wide range of services conveniently address your oral care needs.
-				Call us at 647-346-3368 for more information or to schedule your free initial consultation appointment!
 			</p>
+			<RequestAppointment />
 			<ul>
 			Why choose us?
 				<li>Accepting new patients </li>

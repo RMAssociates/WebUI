@@ -9,7 +9,7 @@ import {
 export default function NavigationBar(props) {
 	return (
 
-		<nav className="navbar navbar-expand-lg navbar-dark bg-success">
+		<nav className="navbar navbar-expand-lg navbar-dark bg-success row">
 			<div>
 				<a className="navbar-brand" href="#">
 					<img className="float-left img-fluid-header" src="public/assets/logo_white_b.jpg" alt="Home" />

@@ -5,6 +5,7 @@ import {
 	Route	
 } from 'react-router-dom';
 import 'bootstrap';
+import 'font-awesome/scss/font-awesome.scss';
 import { HomeContainer } from './components/highOrderComponents/homeContainer.jsx';
 import { Routes } from './routes.jsx';
 import Header from './components/header.jsx';
@@ -22,8 +23,6 @@ class App extends React.Component {
 					<div className="row">				
 						<Routes />
 						<div className="col-md-4" id ="responsive-reviews-module"></div>
-						
-						<div className="col-lg-8">hhhhhh</div>
 						<Footer />
 					</div>
 				</div>

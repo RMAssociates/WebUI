@@ -11,7 +11,7 @@ var config = {
 	entry: APP_DIR + '/index.jsx',
 	output: {
 		path: BUILD_DIR,
-		publicPath: '/src/client',
+		publicPath: '', // Setup any base path you want for a deployed site
 		filename: 'bundle.js'
 	},
 	module: {
@@ -32,7 +32,8 @@ var config = {
 				test: /\.(scss)$/,
 				use: [{
 					loader: 'style-loader', // inject CSS to page
-				}, {
+				},
+				{
 					loader: 'css-loader', // translates CSS into CommonJS modules
 				}, {
 					loader: 'postcss-loader', // Run post css actions
@@ -48,7 +49,8 @@ var config = {
 					loader: 'sass-loader' // compiles SASS to CSS
 				}]
 			},
-			{ test: /\.(jpe?g|gif|png|svg|woff|ttf|wav|mp3)$/, loader: 'file' },
+			{ test: /\.(jpe?g|gif|png|svg|woff|ttf|wav|mp3|eot|woff2)$/, loader: 'file-loader' },
+			
 		]
 	},
 	// module : {
