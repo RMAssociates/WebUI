@@ -7,6 +7,7 @@ import {
 import 'bootstrap';
 import 'font-awesome/scss/font-awesome.scss';
 import { HomeContainer } from './components/highOrderComponents/homeContainer.jsx';
+import { ReviewsContainer } from './components/highOrderComponents/reviewsContainer.jsx';
 import { WorkHours } from './components/subComponents/work-hours.jsx';
 import { RequestAppointmentForm } from './components/subComponents/request-appointment-form.jsx';
 import { Routes } from './routes.jsx';
@@ -25,6 +26,7 @@ class App extends React.Component {
 					<div className="row mb-2">				
 						<Routes />
 						<div className="col-md-4" id ="responsive-reviews-module"></div>
+						<ReviewsContainer />
 						<WorkHours />
 						<RequestAppointmentForm />
 						<Footer />

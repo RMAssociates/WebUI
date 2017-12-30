@@ -12744,6 +12744,8 @@ __webpack_require__(322);
 
 var _homeContainer = __webpack_require__(331);
 
+var _reviewsContainer = __webpack_require__(348);
+
 var _workHours = __webpack_require__(346);
 
 var _requestAppointmentForm = __webpack_require__(347);
@@ -12788,6 +12790,7 @@ var App = function (_React$Component) {
 						{ className: 'row mb-2' },
 						_react2.default.createElement(_routes.Routes, null),
 						_react2.default.createElement('div', { className: 'col-md-4', id: 'responsive-reviews-module' }),
+						_react2.default.createElement(_reviewsContainer.ReviewsContainer, null),
 						_react2.default.createElement(_workHours.WorkHours, null),
 						_react2.default.createElement(_requestAppointmentForm.RequestAppointmentForm, null),
 						_react2.default.createElement(_footer2.default, null)
@@ -46564,6 +46567,65 @@ var RequestAppointmentForm = exports.RequestAppointmentForm = function RequestAp
 				{ href: "#", className: "btn btn-success" },
 				"Submit"
 			)
+		)
+	);
+};
+
+/***/ }),
+/* 348 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.ReviewsContainer = undefined;
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _yelp = __webpack_require__(349);
+
+var _yelp2 = _interopRequireDefault(_yelp);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ReviewsContainer = exports.ReviewsContainer = function ReviewsContainer() {
+	return _react2.default.createElement(
+		'div',
+		{ className: 'row' },
+		_react2.default.createElement(_yelp2.default, null)
+	);
+};
+
+/***/ }),
+/* 349 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function () {
+	return _react2.default.createElement(
+		"div",
+		null,
+		_react2.default.createElement(
+			"a",
+			{ href: "http://www.yelp.com/biz/leaside-village-dental-toronto-2", target: "_blank", className: "link" },
+			_react2.default.createElement("img", { src: "public/assets/yelp.jpg", title: "Read Our Yelp Reviews!", alt: "Read Our Yelp Reviews!" })
 		)
 	);
 };
