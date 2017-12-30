@@ -10,22 +10,23 @@ export default function Introduction() {
 			<p className="col-sm-12 bg-highlighter-green text-light py-1 lead">
 					Our patients love us , Read what our patients have to say About us or come in and find out why
 			</p>
+			<RequestAppointment />
 			<p className="col-sm-12 pt-2">
 				For the past several years we have provided dental services to your neighbours in Leaside and the surrounding areas.
 				Led by Dr. Sohila Methani, who features close to 20 years of dental experience, our practice creates an
 				environment of care and trust. Our wide range of services conveniently address your oral care needs.
 			</p>
-			<RequestAppointment />
+
 			<ul>
-			Why choose us?
+			{/* Why choose us? */}
 				<li>Accepting new patients </li>
 				<li>Comfortable, relaxing environment </li>
-				<li>Ultimate treatment experience (heat and massage chair, TV, music, kids play area)</li>
+				{/* <li>Ultimate treatment experience (heat and massage chair, TV, music, kids play area)</li>
 				<li>Laughing gas (nitrous oxide sedation)</li>
-				<li>Fully digital, environmentally friendly Office</li>
+				<li>Fully digital, environmentally friendly Office</li> */}
 				<li>Same day emergency appointments</li>
 				<li>Weekend and evening appointments</li>
-				<li>Free parking</li>
+				{/* <li>Free parking</li> */}
 			</ul>
 			<p className="col-sm-12 pt-3">
 				<strong>If you have any questions and concerns, reach out to our practice by calling <span className="text-primary"> 647-346-3368 </span> at your 

@@ -12744,6 +12744,10 @@ __webpack_require__(322);
 
 var _homeContainer = __webpack_require__(331);
 
+var _workHours = __webpack_require__(346);
+
+var _requestAppointmentForm = __webpack_require__(347);
+
 var _routes = __webpack_require__(335);
 
 var _header = __webpack_require__(340);
@@ -12781,9 +12785,11 @@ var App = function (_React$Component) {
 					_react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _homeContainer.HomeContainer }),
 					_react2.default.createElement(
 						'div',
-						{ className: 'row' },
+						{ className: 'row mb-2' },
 						_react2.default.createElement(_routes.Routes, null),
 						_react2.default.createElement('div', { className: 'col-md-4', id: 'responsive-reviews-module' }),
+						_react2.default.createElement(_workHours.WorkHours, null),
+						_react2.default.createElement(_requestAppointmentForm.RequestAppointmentForm, null),
 						_react2.default.createElement(_footer2.default, null)
 					)
 				)
@@ -45718,16 +45724,15 @@ function Introduction() {
 			{ className: 'col-sm-12 bg-highlighter-green text-light py-1 lead' },
 			'Our patients love us , Read what our patients have to say About us or come in and find out why'
 		),
+		_react2.default.createElement(_requestAppointment.RequestAppointment, null),
 		_react2.default.createElement(
 			'p',
 			{ className: 'col-sm-12 pt-2' },
 			'For the past several years we have provided dental services to your neighbours in Leaside and the surrounding areas. Led by Dr. Sohila Methani, who features close to 20 years of dental experience, our practice creates an environment of care and trust. Our wide range of services conveniently address your oral care needs.'
 		),
-		_react2.default.createElement(_requestAppointment.RequestAppointment, null),
 		_react2.default.createElement(
 			'ul',
 			null,
-			'Why choose us?',
 			_react2.default.createElement(
 				'li',
 				null,
@@ -45741,32 +45746,12 @@ function Introduction() {
 			_react2.default.createElement(
 				'li',
 				null,
-				'Ultimate treatment experience (heat and massage chair, TV, music, kids play area)'
-			),
-			_react2.default.createElement(
-				'li',
-				null,
-				'Laughing gas (nitrous oxide sedation)'
-			),
-			_react2.default.createElement(
-				'li',
-				null,
-				'Fully digital, environmentally friendly Office'
-			),
-			_react2.default.createElement(
-				'li',
-				null,
 				'Same day emergency appointments'
 			),
 			_react2.default.createElement(
 				'li',
 				null,
 				'Weekend and evening appointments'
-			),
-			_react2.default.createElement(
-				'li',
-				null,
-				'Free parking'
 			)
 		),
 		_react2.default.createElement(
@@ -46421,6 +46406,163 @@ var RequestAppointment = exports.RequestAppointment = function RequestAppointmen
 				"a",
 				{ href: "#", className: "btn btn-success" },
 				"Send a message"
+			)
+		)
+	);
+};
+
+/***/ }),
+/* 346 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+				value: true
+});
+exports.WorkHours = undefined;
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var WorkHours = exports.WorkHours = function WorkHours() {
+				return _react2.default.createElement(
+								"div",
+								{ className: "card" },
+								_react2.default.createElement(
+												"div",
+												{ className: "card-header" },
+												"Working Hours"
+								),
+								_react2.default.createElement(
+												"div",
+												{ className: "card-body" },
+												_react2.default.createElement(
+																"h5",
+																{ className: "card-title" },
+																"Our work timings"
+												),
+												_react2.default.createElement(
+																"dl",
+																{ className: "row" },
+																_react2.default.createElement(
+																				"dt",
+																				{ className: "col-sm-3" },
+																				"Monday"
+																),
+																_react2.default.createElement(
+																				"dd",
+																				{ className: "col-sm-9" },
+																				"Closed"
+																),
+																_react2.default.createElement(
+																				"dt",
+																				{ className: "col-sm-3" },
+																				"Tuesday"
+																),
+																_react2.default.createElement(
+																				"dd",
+																				{ className: "col-sm-9" },
+																				"11:00 AM - 7:00 PM"
+																),
+																_react2.default.createElement(
+																				"dt",
+																				{ className: "col-sm-3" },
+																				"Wednesday"
+																),
+																_react2.default.createElement(
+																				"dd",
+																				{ className: "col-sm-9" },
+																				"11:00 AM - 7:00 PM"
+																),
+																_react2.default.createElement(
+																				"dt",
+																				{ className: "col-sm-3" },
+																				"Thursday"
+																),
+																_react2.default.createElement(
+																				"dd",
+																				{ className: "col-sm-9" },
+																				"11:00 AM - 7:00 PM"
+																),
+																_react2.default.createElement(
+																				"dt",
+																				{ className: "col-sm-3" },
+																				"Friday"
+																),
+																_react2.default.createElement(
+																				"dd",
+																				{ className: "col-sm-9" },
+																				"11:00 AM - 7:00 PM"
+																),
+																_react2.default.createElement(
+																				"dt",
+																				{ className: "col-sm-3" },
+																				"Saturday"
+																),
+																_react2.default.createElement(
+																				"dd",
+																				{ className: "col-sm-9" },
+																				"9:00 AM - 6:00 PM"
+																),
+																_react2.default.createElement(
+																				"dt",
+																				{ className: "col-sm-3" },
+																				"Sunday"
+																),
+																_react2.default.createElement(
+																				"dd",
+																				{ className: "col-sm-9" },
+																				"Closed"
+																)
+												)
+								)
+				);
+};
+
+/***/ }),
+/* 347 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.RequestAppointmentForm = undefined;
+
+var _react = __webpack_require__(4);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var RequestAppointmentForm = exports.RequestAppointmentForm = function RequestAppointmentForm() {
+	return _react2.default.createElement(
+		"div",
+		{ className: "card" },
+		_react2.default.createElement(
+			"div",
+			{ className: "card-body" },
+			_react2.default.createElement(
+				"h5",
+				{ className: "card-title" },
+				"Request an Appointment"
+			),
+			_react2.default.createElement(
+				"p",
+				{ className: "card-text" },
+				"Call us at 647-560-2430 to schedule your appointment or fill in below information and someone from our team will reach out to you"
+			),
+			_react2.default.createElement(
+				"a",
+				{ href: "#", className: "btn btn-success" },
+				"Submit"
 			)
 		)
 	);

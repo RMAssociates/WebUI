@@ -7,6 +7,8 @@ import {
 import 'bootstrap';
 import 'font-awesome/scss/font-awesome.scss';
 import { HomeContainer } from './components/highOrderComponents/homeContainer.jsx';
+import { WorkHours } from './components/subComponents/work-hours.jsx';
+import { RequestAppointmentForm } from './components/subComponents/request-appointment-form.jsx';
 import { Routes } from './routes.jsx';
 import Header from './components/header.jsx';
 import Footer from './components/footer.jsx';
@@ -20,9 +22,11 @@ class App extends React.Component {
 				<div className="container-fluid">
 					<Header />
 					<Route exact path="/" component={HomeContainer} />
-					<div className="row">				
+					<div className="row mb-2">				
 						<Routes />
 						<div className="col-md-4" id ="responsive-reviews-module"></div>
+						<WorkHours />
+						<RequestAppointmentForm />
 						<Footer />
 					</div>
 				</div>
