@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const AboutUs = () => (
-	<div>
-		<h3>About Us</h3>
+	<div className='pad-l-b'>
+		<h2>About Us</h2>
 		<p>
         At Leaside Village Dental, we pride ourselves in providing highly individualized dental care. We realize that the vast majority of
          patients have some form of dental anxiety. Hence, we ensure that our patients can come in and enjoy our warm and friendly atmosphere,
