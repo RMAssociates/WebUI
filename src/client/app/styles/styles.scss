@@ -16,7 +16,7 @@ h1, h3 {
   }
 
   .bg-header {
-      background-color: darkgreen
+      background-color: rgb(92, 192, 145)
   }
 
   
@@ -33,11 +33,20 @@ p .bg-highlighter-green a {
 font-size: 1.5em !important;
 }
 
+.fs_75
+{
+font-size: .5rem;
+}
+
 .pad-l-b{
     padding:1rem 0 1rem 1rem;
 }
 
 .dropdown-item:hover{
     background-color: #28a745 !important
+}
+
+.menu-header{
+    border: 2px white solid !important;
 }
   

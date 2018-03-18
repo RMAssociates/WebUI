@@ -17,9 +17,15 @@ export default function Header(props) {
 					<button className="btn btn-success float-right mb-0">Emergency Appointment</button>
 				</div>
 			</div>
-			<div className="row d-md-none bg-header">				
-				<a href="tel:647-560-2430"><i className="fa fa-inverse fa-phone-square fa-1_5x pl-4 my-2" aria-hidden="true"> 647-560-2430
-					<p className="d-inline pl-2">Toronto, ON</p></i>	</a>							 
+			
+			<div className="row d-md-none bg-header justify-content-center align-items-center text-white ">				
+				<a href="tel:647-560-2430" className="text-white">
+					<i className="fa fa-inverse fa-phone-square fa-1_5x pl-4 my-2" aria-hidden="true"></i> 
+					&nbsp;647-560-2430 </a>
+				<a href="email:info@myleasidedentist.com" className="text-white">
+					<i className="fa fa-inverse fa-envelope-square fa-1_5x pl-4 my-2" aria-hidden="true"></i> 
+					&nbsp;info@myleasidedentist.com </a>
+											 
 			</div>
 			<NavigationBar />
 		</div>

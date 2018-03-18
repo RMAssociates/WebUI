@@ -13,10 +13,10 @@ export default function NavigationBar(props) {
 			<div>
 				<a className="navbar-brand" href="#">
 					<img className="float-left img-fluid-header" src="public/assets/logo_white_b.jpg" alt="Home" />
-					<button className="navbar-toggler float-right" type="button" 
+					<button className="navbar-toggler float-right menu-header p-2" type="button" 
 						data-toggle="collapse" data-target="#navbarTogglerList" 
 						aria-controls="navbarTogglerList" aria-expanded="false" aria-label="Toggle navigation">
-						<span className="navbar-toggler-icon"></span>
+						<span className="text-white">Menu</span>
 					</button>
 				</a>
 			</div>
