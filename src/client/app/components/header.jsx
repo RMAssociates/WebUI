@@ -22,7 +22,7 @@ export default function Header(props) {
 				<a href="tel:647-560-2430" className="text-white">
 					<i className="fa fa-inverse fa-phone-square fa-1_5x pl-4 my-2" aria-hidden="true"></i> 
 					&nbsp;647-560-2430 </a>
-				<a href="email:info@myleasidedentist.com" className="text-white">
+				<a href="mailTo:info@myleasidedentist.com" className="text-white">
 					<i className="fa fa-inverse fa-envelope-square fa-1_5x pl-4 my-2" aria-hidden="true"></i> 
 					&nbsp;info@myleasidedentist.com </a>
 											 

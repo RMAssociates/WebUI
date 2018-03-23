@@ -2,7 +2,10 @@
   "extends": "airbnb",
   "rules": {
     "func-names": ["error", "never"],
-    "some_unused_var": 42
+    "some_unused_var": 42,
+    "linebreak-style": 0,
+    "no-unused-vars": 0,
+    "max-len": [1, 120, 2, { "ignoreComments" : true}]
   },
   "parser": "babel-eslint",
   "env": {
