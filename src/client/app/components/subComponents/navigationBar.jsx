@@ -13,7 +13,7 @@ export default function NavigationBar(props) {
       <div>
         { // eslint-disable-next-line
         <a className="navbar-brand" href="#">
-          <img className="float-left img-fluid-header" src="public/assets/logo_white_b.jpg" alt="Home" />
+          <img className="float-left img-fluid-header nav-brand-img" src="public/assets/logo_white_b.jpg" alt="Home" />
           <button
             className="navbar-toggler float-right menu-header p-2"
             type="button"

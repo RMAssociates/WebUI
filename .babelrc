@@ -1,10 +1,11 @@
 {
   "presets": [
     ["env", {"modules": false}],
-    "stage-1",
+    "stage-3",
     "react"
   ],
   "plugins": [
-    "transform-runtime"
+    "transform-runtime",
+    ["transform-class-properties", { "spec": true }]
   ]
 }
