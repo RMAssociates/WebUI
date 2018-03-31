@@ -2,7 +2,7 @@ import React from 'react';
 
 const Crowns = () => (
   <div>
-    <h3>DENTAL CROWNS IN TORONTO, ON</h3>
+    <h4>DENTAL CROWNS</h4>
     <p>
 		Are you tired of staring at that chipped tooth at the front of your mouth? Leaside Village
 		 Dental may have the answer, and it comes in the form of dental crowns. As a trusted dentist office in Toronto,

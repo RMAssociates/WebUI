@@ -2,7 +2,7 @@ import React from 'react';
 
 const familyDentistry = () => (
   <div>
-      <h3>FAMILY DENTISTRY IN TORONTO, ON</h3>
+      <h4>FAMILY DENTISTRY IN TORONTO, ON</h4>
       <p>
       At Leaside Village Dental, we believe everyone deserves a bright, beautiful smile and the confidence that comes with it. That’s why we’ve dedicated ourselves to offering quality cosmetic services to our valued dental patients, both young and old. Leaside Village Dental is an established practice in Toronto, ON offering family cosmetic dentistry. We pride ourselves on providing dental care in a welcoming and comfortable environment.
       </p>

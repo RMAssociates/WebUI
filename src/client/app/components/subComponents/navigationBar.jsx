@@ -60,6 +60,16 @@ export default function NavigationBar(props) {
                 <NavLink className="dropdown-item" to="/services/family-dentistry">Family Dentistry</NavLink>
                 <NavLink className="dropdown-item" to="/services/general-dentistry">General Dentistry</NavLink>
                 <NavLink className="dropdown-item" to="/services/orthodontics">Interceptive Orthodontics</NavLink>
+                <NavLink className="dropdown-item" to="/services/oral-surgery">Oral Surgery</NavLink>
+                <NavLink className="dropdown-item" to="/services/pediatric">Pediatric Dentistry</NavLink>
+                <NavLink className="dropdown-item" to="/services/periodontics">Periodontics</NavLink>
+                <NavLink className="dropdown-item" to="/services/restorative-dentistry">Restorative Dentistry</NavLink>
+                <NavLink className="dropdown-item" to="/services/preventive-dentistry">Preventive Dentistry</NavLink>
+                <NavLink className="dropdown-item" to="/services/sedation-dentistry">Sedation Dentistry</NavLink>
+                <NavLink className="dropdown-item" to="/services/sleep-disorder-dentistry">Sleep Disorder Dentistry</NavLink>
+                <NavLink className="dropdown-item" to="/services/tmj-tmd-dentistry">TMJ and TMD Dentistry</NavLink>
+                <NavLink className="dropdown-item" to="/services/teeth-whitening">Teeth Whitening</NavLink>
+                <NavLink className="dropdown-item" to="/services/invisalign-braces">Invisalign/Invisible Braces</NavLink>
               </div>
             </div>
           </li>

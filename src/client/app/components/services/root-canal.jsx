@@ -2,7 +2,7 @@ import React from 'react';
 
 const RootCanal = () => (
   <div>
-    <h3>ROOT CANAL DENTISTRY IN TORONTO, ON</h3>
+    <h4>ROOT CANAL DENTISTRY IN TORONTO, ON</h4>
     <p>
 	  In the past, teeth with diseased nerves often had to be removed. But thanks to advances in root canal therapy, dentists today are often able to salvage diseased teeth. If your tooth is severely damaged or decayed, come to Leaside Village Dental. Our Toronto, ON dental practice offers services in endodontics and root canals designed to preserve our patients' teeth.
 	  </p>

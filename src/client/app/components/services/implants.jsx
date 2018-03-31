@@ -2,7 +2,7 @@ import React from 'react';
 
 const Implants = () => (
   <div>
-    <h3>WHAT IS A DENTAL IMPLANT</h3>
+    <h4>WHAT IS A DENTAL IMPLANT</h4>
     <p>
   	If you have lost or missing teeth, you may wish to consider dental implants from Leaside Village Dental. At our Toronto, ON office, we offer implant dentistry services designed to restore your teeth and maintain the structural integrity of your mouth.
     </p>

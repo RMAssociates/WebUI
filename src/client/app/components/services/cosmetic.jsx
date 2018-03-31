@@ -2,13 +2,13 @@ import React from 'react';
 
 const Cosmetic = () => (
   <div>
-    <h3>Cosmetic Dental Office in Toronto, ON</h3>
+    <h4>COSMETICS IN DENTISTRY</h4>
     <p>Years ago, aesthetic improvements in dentistry often meant multiple appointments and invasive procedures.
              But thanks to advances in cosmetic dentistry, dental professionals these days are able to help patients achieve spectacular
              results in a far less painful and time-consuming fashion. At Leaside Village Dental,
              we're pleased to offer our valued Toronto, ON patients a variety of cosmetic solutions to suit their aesthetic needs.
     </p>
-    <h4>Improving your Smile</h4>
+    <h4>IMPROVING YOUR SMILE</h4>
     <p>
         Whether you're looking to fix a single crooked tooth or desire more extensive cosmetic work, the dedicated team at Leaside Village
          Dental is at your service to provide cost-effective cosmetic dental treatments. When you visit our practice, you'll benefit from

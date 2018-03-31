@@ -2,7 +2,7 @@ import React from 'react';
 
 const Dentures = () => (
   <div>
-    <h3>DENTURES IN TORONTO, ON</h3>
+    <h4>DENTURES</h4>
     <p>
 	Missing teeth may make you want to hide your smile, but Leaside Village Dental might have you displaying
 	your pearly whites again. We offer quality dentures, and we'll work hard to fit you with a comfortable set that

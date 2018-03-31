@@ -11,6 +11,9 @@ import dentures from '../services/dentures';
 import rootCanal from '../services/root-canal';
 import familyDentistry from '../services/family-dentistry';
 import generalDentistry from '../services/general-dentistry';
+import orthodontics from '../services/orthodontics';
+import oralSurgery from '../services/oral-surgery';
+import pediatricDentistry from '../services/pediatric';
 
 export const ServiceContainer = ({ match }) => (
   <div>
@@ -22,6 +25,9 @@ export const ServiceContainer = ({ match }) => (
     <Route exact path={`${match.url}/root-canal`} component={rootCanal} />
     <Route exact path={`${match.url}/family-dentistry`} component={familyDentistry} />
     <Route exact path={`${match.url}/general-dentistry`} component={generalDentistry} />
+    <Route exact path={`${match.url}/orthodontics`} component={orthodontics} />
+    <Route exact path={`${match.url}/oral-surgery`} component={oralSurgery} />
+    <Route exact path={`${match.url}/pediatric`} component={pediatricDentistry} />
     {/*
     <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
       <Link to={`${match.url}/rendering`}>Rendering with React</Link>

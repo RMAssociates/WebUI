@@ -46087,6 +46087,8 @@ var _meetOurDoctor = __webpack_require__(306);
 
 var _photoGallery = __webpack_require__(307);
 
+var _photoGallery2 = _interopRequireDefault(_photoGallery);
+
 var _accordion = __webpack_require__(308);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -46101,7 +46103,7 @@ var Routes = function Routes() {
       _react2.default.createElement(_reactRouterDom.Route, { path: '/services', component: _servicesContainer.ServiceContainer }),
       _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/about-us', component: _aboutUs.AboutUs }),
       _react2.default.createElement(_reactRouterDom.Route, { path: '/meet-us', component: _meetOurDoctor.MeetOurDoctor }),
-      _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/gallery', component: _photoGallery.PhotoGallery })
+      _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/gallery', component: _photoGallery2.default })
     ),
     _react2.default.createElement(
       'div',
@@ -46163,6 +46165,18 @@ var _generalDentistry = __webpack_require__(391);
 
 var _generalDentistry2 = _interopRequireDefault(_generalDentistry);
 
+var _orthodontics = __webpack_require__(392);
+
+var _orthodontics2 = _interopRequireDefault(_orthodontics);
+
+var _oralSurgery = __webpack_require__(393);
+
+var _oralSurgery2 = _interopRequireDefault(_oralSurgery);
+
+var _pediatric = __webpack_require__(394);
+
+var _pediatric2 = _interopRequireDefault(_pediatric);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var ServiceContainer = exports.ServiceContainer = function ServiceContainer(_ref) {
@@ -46177,7 +46191,10 @@ var ServiceContainer = exports.ServiceContainer = function ServiceContainer(_ref
     _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/dentures', component: _dentures2.default }),
     _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/root-canal', component: _rootCanal2.default }),
     _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/family-dentistry', component: _familyDentistry2.default }),
-    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/general-dentistry', component: _generalDentistry2.default })
+    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/general-dentistry', component: _generalDentistry2.default }),
+    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/orthodontics', component: _orthodontics2.default }),
+    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/oral-surgery', component: _oralSurgery2.default }),
+    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/pediatric', component: _pediatric2.default })
   );
 };
 
@@ -46358,9 +46375,8 @@ var MeetOurDoctor = exports.MeetOurDoctor = function MeetOurDoctor() {
 
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+  value: true
 });
-exports.PhotoGallery = undefined;
 
 var _react = __webpack_require__(3);
 
@@ -46368,9 +46384,87 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PhotoGallery = exports.PhotoGallery = function PhotoGallery() {
-	return _react2.default.createElement('div', null);
+var PhotoGallery = function PhotoGallery() {
+  return _react2.default.createElement(
+    "div",
+    null,
+    _react2.default.createElement(
+      "h3",
+      null,
+      "Gallery "
+    ),
+    _react2.default.createElement(
+      "div",
+      { className: "row" },
+      _react2.default.createElement(
+        "div",
+        { className: "card col-md-6" },
+        _react2.default.createElement("img", {
+          className: "img-fluid",
+          "data-src": "holder.js/100px280/thumb",
+          alt: "100%x280",
+          src: "public/assets/reception.jpg",
+          "data-holder-rendered": "true"
+        }),
+        _react2.default.createElement(
+          "p",
+          { className: "card-text" },
+          "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+        )
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "card  col-md-6" },
+        _react2.default.createElement("img", {
+          className: "img-fluid",
+          "data-src": "holder.js/100px280/thumb",
+          alt: "100%x280",
+          src: "public/assets/chair1.jpg",
+          "data-holder-rendered": "true"
+        }),
+        _react2.default.createElement(
+          "p",
+          { className: "card-text" },
+          "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+        )
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "card  col-md-6" },
+        _react2.default.createElement("img", {
+          className: "img-fluid",
+          "data-src": "holder.js/100px280/thumb",
+          alt: "100%x280",
+          src: "public/assets/chair2.jpg",
+          "data-holder-rendered": "true"
+        }),
+        _react2.default.createElement(
+          "p",
+          { className: "card-text" },
+          "This is a wider card with supporting text below as a natural lead-in to additional content.This content is a little bit longer."
+        )
+      ),
+      _react2.default.createElement(
+        "div",
+        { className: "card  col-md-6" },
+        _react2.default.createElement("img", {
+          className: "img-fluid",
+          "data-src": "holder.js/100px280/thumb",
+          alt: "100%x280",
+          src: "public/assets/sterilize.jpg",
+          "data-holder-rendered": "true"
+        }),
+        _react2.default.createElement(
+          "p",
+          { className: "card-text" },
+          "This is a wider card with supporting text below as a natural lead-in to additional content.This content is a little bit longer."
+        )
+      )
+    )
+  );
 };
+
+exports.default = PhotoGallery;
 
 /***/ }),
 /* 308 */
@@ -68401,6 +68495,56 @@ function NavigationBar(props) {
                 _reactRouterDom.NavLink,
                 { className: 'dropdown-item', to: '/services/orthodontics' },
                 'Interceptive Orthodontics'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/oral-surgery' },
+                'Oral Surgery'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/pediatric' },
+                'Pediatric Dentistry'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/periodontics' },
+                'Periodontics'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/restorative-dentistry' },
+                'Restorative Dentistry'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/preventive-dentistry' },
+                'Preventive Dentistry'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/sedation-dentistry' },
+                'Sedation Dentistry'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/sleep-disorder-dentistry' },
+                'Sleep Disorder Dentistry'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/tmj-tmd-dentistry' },
+                'TMJ and TMD Dentistry'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/teeth-whitening' },
+                'Teeth Whitening'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/invisalign-braces' },
+                'Invisalign/Invisible Braces'
               )
             )
           )
@@ -68566,9 +68710,9 @@ var Cosmetic = function Cosmetic() {
     'div',
     null,
     _react2.default.createElement(
-      'h3',
+      'h4',
       null,
-      'Cosmetic Dental Office in Toronto, ON'
+      'COSMETICS IN DENTISTRY'
     ),
     _react2.default.createElement(
       'p',
@@ -68578,7 +68722,7 @@ var Cosmetic = function Cosmetic() {
     _react2.default.createElement(
       'h4',
       null,
-      'Improving your Smile'
+      'IMPROVING YOUR SMILE'
     ),
     _react2.default.createElement(
       'p',
@@ -68617,9 +68761,9 @@ var Bridges = function Bridges() {
     'div',
     null,
     _react2.default.createElement(
-      'h3',
+      'h4',
       null,
-      'DENTAL BRIDGES IN TORONTO, ON'
+      'WHAT ARE DENTAL BRIDGES'
     ),
     _react2.default.createElement(
       'p',
@@ -68668,9 +68812,9 @@ var Crowns = function Crowns() {
     'div',
     null,
     _react2.default.createElement(
-      'h3',
+      'h4',
       null,
-      'DENTAL CROWNS IN TORONTO, ON'
+      'DENTAL CROWNS'
     ),
     _react2.default.createElement(
       'p',
@@ -68738,7 +68882,7 @@ var Implants = function Implants() {
     'div',
     null,
     _react2.default.createElement(
-      'h3',
+      'h4',
       null,
       'WHAT IS A DENTAL IMPLANT'
     ),
@@ -68789,9 +68933,9 @@ var Dentures = function Dentures() {
       'div',
       null,
       _react2.default.createElement(
-         'h3',
+         'h4',
          null,
-         'DENTURES IN TORONTO, ON'
+         'DENTURES'
       ),
       _react2.default.createElement(
          'p',
@@ -68880,7 +69024,7 @@ var RootCanal = function RootCanal() {
     'div',
     null,
     _react2.default.createElement(
-      'h3',
+      'h4',
       null,
       'ROOT CANAL DENTISTRY IN TORONTO, ON'
     ),
@@ -68930,7 +69074,7 @@ var familyDentistry = function familyDentistry() {
     'div',
     null,
     _react2.default.createElement(
-      'h3',
+      'h4',
       null,
       'FAMILY DENTISTRY IN TORONTO, ON'
     ),
@@ -68967,7 +69111,7 @@ exports.default = familyDentistry;
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _react = __webpack_require__(3);
@@ -68977,10 +69121,224 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var generalDentistry = function generalDentistry() {
-  return _react2.default.createElement('div', null);
+    return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+            'h4',
+            null,
+            'GENERAL DENTAL CARE'
+        ),
+        _react2.default.createElement(
+            'p',
+            null,
+            'Quality dental care may do wonders for your oral health. If you\'re looking for a dental office in Toronto, ON, Leaside Village Dental is an excellent choice. To help put our clients at ease, we make our treatment environment as comfortable as possible. We offer a range of services at affordable prices.'
+        ),
+        _react2.default.createElement(
+            'p',
+            null,
+            'We\'re accepting new patients, and we hope you come to us for all of your routine care, including checkups and fillings. If you want to restore brightness to your smile, our teeth whitening services may be the solution. For patients who are fearful of going to the dentist, sedation dentistry might be the right choice for you. We also offer:',
+            _react2.default.createElement(
+                'ul',
+                null,
+                _react2.default.createElement(
+                    'li',
+                    null,
+                    'Bridges'
+                ),
+                _react2.default.createElement(
+                    'li',
+                    null,
+                    'Crowns'
+                ),
+                _react2.default.createElement(
+                    'li',
+                    null,
+                    'Dentures'
+                )
+            )
+        ),
+        _react2.default.createElement(
+            'p',
+            null,
+            'Bring your whole family to Leaside Village Dental in Toronto. We take early evening appointments, and we\'re here on the weekend. From routine dental care to cosmetic fixes, we want to help you obtain a lovely smile. Call for scheduling.'
+        )
+    );
 };
 
 exports.default = generalDentistry;
+
+/***/ }),
+/* 392 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var orthodontics = function orthodontics() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'h4',
+      null,
+      'INTERCEPTIVE & GENERAL ORTHODONTICS'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Some patients don\'t visit the orthodontist until tooth alignment issues become evident. But at Leaside Village Dental, we encourage our Toronto, ON patients to get help early on. Our interceptive orthodontics program is designed to eliminate or reduce the severity of developing dental problems in young patients.'
+    ),
+    _react2.default.createElement(
+      'h4',
+      null,
+      'EARLY INTERVENTION IS KEY'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Interceptive orthodontics can save you and your child time, money, and future discomfort by correcting problems before they escalate. While the optimum age for beginning treatment depends upon the specific issue and patient at hand, at Leaside Village Dental, we encourage you to bring your child in as early as possible. Orthodontic issues often become apparent as permanent teeth emerge, and we use interceptive orthodontics to thwart the development of dental problems.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'The goal of our interceptive orthodontics program is to help develop a permanent smile that is harmonious, functional and aesthetically pleasing for you and your child. To have your child examined, call today for an appointment.'
+    )
+  );
+};
+
+exports.default = orthodontics;
+
+/***/ }),
+/* 393 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var oralSurgery = function oralSurgery() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'h4',
+      null,
+      'ORAL DENTAL SURGEON'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'As a trusted provider of oral surgery, Leaside Village Dental wants to help set you on the road to recovery.'
+    ),
+    _react2.default.createElement(
+      'h4',
+      null,
+      'YOUR COMFORT IN MIND'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Whether you\'re suffering from impacted wisdom teeth, jaw alignment issues, or any other ailments requiring the help of an oral surgeon, Leaside Village Dental pledges to treat you with the attention and compassion you deserve. When you arrive for your consultation, you\'ll be given the opportunity to ask questions and learn what your procedure will entail. And during your surgery, every effort will be made to keep you as comfortable as possible as we work to address the problem at hand.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'For more information or to set up an appointment with an oral surgeon at Leaside Village Dental, call us today.'
+    )
+  );
+};
+
+exports.default = oralSurgery;
+
+/***/ }),
+/* 394 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var pediatricDentistry = function pediatricDentistry() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'h4',
+      null,
+      'PEDIATRICS AND CHILDREN'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Your child\'s early experiences at the dentist can help shape the future of his or her oral health. If you\'re looking for a caring, compassionate dentist in Toronto, ON who\'caters to children, look no further than Leaside Village Dental. We\'re pleased to offer comprehensive children\'s dentistry in a warm, comfortable office setting.'
+    ),
+    _react2.default.createElement(
+      'h4',
+      null,
+      'A FOCUS ON PATIENT EDUCATION'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'At Leaside Village Dental, we believe that a big part of children\'s dentistry involves teaching patients how to properly care for their teeth. Many children learn their most important oral hygiene habits by visiting our practice, including:',
+      _react2.default.createElement(
+        'ul',
+        null,
+        _react2.default.createElement(
+          'li',
+          null,
+          'Brushing'
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          'Flossing'
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          'Avoiding Tooth Decay'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'But Leaside Village Dental does more than just teach children about proper oral care. Our team of dedicated dental professionals goes the extra mile to provide thorough treatment when our patients need it the most. To learn more about our children\'s dentistry services or to schedule an appointment, call us today.'
+    )
+  );
+};
+
+exports.default = pediatricDentistry;
 
 /***/ })
 /******/ ]);

@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom';
 import { ServiceContainer } from './components/highOrderComponents/servicesContainer';
 import { AboutUs } from './components/subComponents/about-us';
 import { MeetOurDoctor } from './components/subComponents/meet-our-doctor';
-import { PhotoGallery } from './components/subComponents/photo-gallery';
+import PhotoGallery from './components/subComponents/photo-gallery';
 import { Accordion } from './components/subComponents/accordion';
 
 const Routes = () => (
