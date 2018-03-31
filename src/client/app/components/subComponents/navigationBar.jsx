@@ -51,15 +51,15 @@ export default function NavigationBar(props) {
                 Services
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <NavLink className="dropdown-item" to="services/rendering">Cosmetic Dentistry</NavLink>
-                <NavLink className="dropdown-item" to="services/rendering">Dental Bridges</NavLink>
-                <NavLink className="dropdown-item" to="services/rendering">Dental Crowns</NavLink>
-                <NavLink className="dropdown-item" to="services/rendering">Dental Implants</NavLink>
-                <NavLink className="dropdown-item" to="services/rendering">Dentures</NavLink>
-                <NavLink className="dropdown-item" to="services/rendering">Dental Crowns</NavLink>
-                <NavLink className="dropdown-item" to="services/rendering">Dental Crowns</NavLink>
-                <NavLink className="dropdown-item" to="services/rendering">Dental Crowns</NavLink>
-                <NavLink className="dropdown-item" to="services/rendering">Dental Crowns</NavLink>
+                <NavLink className="dropdown-item" to="/services/cosmetic">Cosmetic Dentistry</NavLink>
+                <NavLink className="dropdown-item" to="/services/bridges">Dental Bridges</NavLink>
+                <NavLink className="dropdown-item" to="/services/crowns">Dental Crowns</NavLink>
+                <NavLink className="dropdown-item" to="/services/implants">Dental Implants</NavLink>
+                <NavLink className="dropdown-item" to="/services/dentures">Dentures</NavLink>
+                {/* <NavLink className="dropdown-item" to="/services/rendering">Dental Crowns</NavLink>
+                <NavLink className="dropdown-item" to="/services/rendering">Dental Crowns</NavLink>
+                <NavLink className="dropdown-item" to="/services/rendering">Dental Crowns</NavLink>
+                <NavLink className="dropdown-item" to="/services/rendering">Dental Crowns</NavLink> */}
               </div>
             </div>
           </li>
