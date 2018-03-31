@@ -56,10 +56,10 @@ export default function NavigationBar(props) {
                 <NavLink className="dropdown-item" to="/services/crowns">Dental Crowns</NavLink>
                 <NavLink className="dropdown-item" to="/services/implants">Dental Implants</NavLink>
                 <NavLink className="dropdown-item" to="/services/dentures">Dentures</NavLink>
-                {/* <NavLink className="dropdown-item" to="/services/rendering">Dental Crowns</NavLink>
-                <NavLink className="dropdown-item" to="/services/rendering">Dental Crowns</NavLink>
-                <NavLink className="dropdown-item" to="/services/rendering">Dental Crowns</NavLink>
-                <NavLink className="dropdown-item" to="/services/rendering">Dental Crowns</NavLink> */}
+                <NavLink className="dropdown-item" to="/services/root-canal">Endodontics and Root Canals</NavLink>
+                <NavLink className="dropdown-item" to="/services/family-dentistry">Family Dentistry</NavLink>
+                <NavLink className="dropdown-item" to="/services/general-dentistry">General Dentistry</NavLink>
+                <NavLink className="dropdown-item" to="/services/orthodontics">Interceptive Orthodontics</NavLink>
               </div>
             </div>
           </li>

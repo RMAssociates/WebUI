@@ -46143,6 +46143,26 @@ var _crowns = __webpack_require__(386);
 
 var _crowns2 = _interopRequireDefault(_crowns);
 
+var _implants = __webpack_require__(387);
+
+var _implants2 = _interopRequireDefault(_implants);
+
+var _dentures = __webpack_require__(388);
+
+var _dentures2 = _interopRequireDefault(_dentures);
+
+var _rootCanal = __webpack_require__(389);
+
+var _rootCanal2 = _interopRequireDefault(_rootCanal);
+
+var _familyDentistry = __webpack_require__(390);
+
+var _familyDentistry2 = _interopRequireDefault(_familyDentistry);
+
+var _generalDentistry = __webpack_require__(391);
+
+var _generalDentistry2 = _interopRequireDefault(_generalDentistry);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var ServiceContainer = exports.ServiceContainer = function ServiceContainer(_ref) {
@@ -46152,7 +46172,12 @@ var ServiceContainer = exports.ServiceContainer = function ServiceContainer(_ref
     null,
     _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/cosmetic', component: _cosmetic2.default }),
     _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/bridges', component: _bridges2.default }),
-    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/crowns', component: _crowns2.default })
+    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/crowns', component: _crowns2.default }),
+    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/implants', component: _implants2.default }),
+    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/dentures', component: _dentures2.default }),
+    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/root-canal', component: _rootCanal2.default }),
+    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/family-dentistry', component: _familyDentistry2.default }),
+    _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: match.url + '/general-dentistry', component: _generalDentistry2.default })
   );
 };
 
@@ -68356,6 +68381,26 @@ function NavigationBar(props) {
                 _reactRouterDom.NavLink,
                 { className: 'dropdown-item', to: '/services/dentures' },
                 'Dentures'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/root-canal' },
+                'Endodontics and Root Canals'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/family-dentistry' },
+                'Family Dentistry'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/general-dentistry' },
+                'General Dentistry'
+              ),
+              _react2.default.createElement(
+                _reactRouterDom.NavLink,
+                { className: 'dropdown-item', to: '/services/orthodontics' },
+                'Interceptive Orthodontics'
               )
             )
           )
@@ -68531,7 +68576,7 @@ var Cosmetic = function Cosmetic() {
       'Years ago, aesthetic improvements in dentistry often meant multiple appointments and invasive procedures. But thanks to advances in cosmetic dentistry, dental professionals these days are able to help patients achieve spectacular results in a far less painful and time-consuming fashion. At Leaside Village Dental, we\'re pleased to offer our valued Toronto, ON patients a variety of cosmetic solutions to suit their aesthetic needs.'
     ),
     _react2.default.createElement(
-      'h3',
+      'h4',
       null,
       'Improving your Smile'
     ),
@@ -68558,9 +68603,8 @@ exports.default = Cosmetic;
 
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+  value: true
 });
-exports.Bridges = undefined;
 
 var _react = __webpack_require__(3);
 
@@ -68568,9 +68612,39 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Bridges = exports.Bridges = function Bridges() {
-	return _react2.default.createElement('div', null);
+var Bridges = function Bridges() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'h3',
+      null,
+      'DENTAL BRIDGES IN TORONTO, ON'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Missing teeth can have a serious effect not only on your smile, but also on your oral health. Missing teeth can impact the alignment and integrity of your surrounding teeth, causing you further problems down the road. And missing teeth can also result in unwanted periodontal disease and decay. If you\'re missing teeth, come to Leaside Village Dental, a Toronto, ON dental office that provides dental bridges to patients in need.'
+    ),
+    _react2.default.createElement(
+      'h4',
+      null,
+      'MULTIPLE BENEFITS'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dental bridges from Leaside Village Dental can fill in the gaps where teeth are missing while helping to preserve the structure of your remaining teeth and bite. Our dental bridges are designed to help our Toronto, ON patients eat more comfortably and smile more confidently. And when you come to Leaside Village Dental for dental bridges, you\'ll benefit from our dedicated staff and individualized approach to restorative dentistry.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'To find out more about dental bridges or to schedule an appointment, call Leaside Village Dental today.'
+    )
+  );
 };
+
+exports.default = Bridges;
 
 /***/ }),
 /* 386 */
@@ -68596,7 +68670,7 @@ var Crowns = function Crowns() {
     _react2.default.createElement(
       'h3',
       null,
-      'Dental Crowns in Toronto, ON'
+      'DENTAL CROWNS IN TORONTO, ON'
     ),
     _react2.default.createElement(
       'p',
@@ -68604,13 +68678,13 @@ var Crowns = function Crowns() {
       'Are you tired of staring at that chipped tooth at the front of your mouth? Leaside Village Dental may have the answer, and it comes in the form of dental crowns. As a trusted dentist office in Toronto, ON, we offer crowns for cosmetic and restorative purposes so that our valued patients can enjoy their smiles while preserving their oral health.'
     ),
     _react2.default.createElement(
-      'h3',
-      null,
-      'Invest in your Smile and Health'
-    ),
-    _react2.default.createElement(
       'p',
       null,
+      _react2.default.createElement(
+        'h4',
+        null,
+        'INVEST IN YOUR SMILE AND HEALTH'
+      ),
       'A dental crown from Leaside Village Dental may work to improve your smile while helping to maintain the affected tooth as well as the teeth that surround it. And when you visit our Toronto, ON office, you\'ll benefit from our:',
       _react2.default.createElement(
         'ul',
@@ -68635,12 +68709,278 @@ var Crowns = function Crowns() {
     _react2.default.createElement(
       'p',
       null,
-      'It\'s time to make an investment in your smile. For more information about our dental crowns or to schedule an appointment, call Leaside Village Dental today.'
+      'It\'s time to make an investment in your smile. For more information about our dental crowns or to schedule an appointment, call Leaside Village Dental today.It\'s time to make an investment in your smile. For more information about our dental crowns or to schedule an appointment, call Leaside Village Dental today.'
     )
   );
 };
 
 exports.default = Crowns;
+
+/***/ }),
+/* 387 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Implants = function Implants() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'h3',
+      null,
+      'WHAT IS A DENTAL IMPLANT'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'If you have lost or missing teeth, you may wish to consider dental implants from Leaside Village Dental. At our Toronto, ON office, we offer implant dentistry services designed to restore your teeth and maintain the structural integrity of your mouth.'
+    ),
+    _react2.default.createElement(
+      'h4',
+      null,
+      'RESTORE YOUR SMILE'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Whether your missing tooth is the result of periodontitis, tooth decay, or an injury, Leaside Village Dental wants to help restore your smile with a beautiful new dental implant that looks and functions just like a real tooth. Significantly stronger than bridges or dentures, dental implants offer a single and permanent solution to lost teeth. And when you come to Leaside Village Dental, you\'ll be treated with the nurturing care and professionalism that embodies our practice.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Have questions? Just call today to schedule a consultation. We\'ll walk you through the implant process and address any questions or concerns you might have. A new and improved smile could be yours thanks to our dental implants, so contact us right away.'
+    )
+  );
+};
+
+exports.default = Implants;
+
+/***/ }),
+/* 388 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+   value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Dentures = function Dentures() {
+   return _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(
+         'h3',
+         null,
+         'DENTURES IN TORONTO, ON'
+      ),
+      _react2.default.createElement(
+         'p',
+         null,
+         'Missing teeth may make you want to hide your smile, but Leaside Village Dental might have you displaying your pearly whites again. We offer quality dentures, and we\'ll work hard to fit you with a comfortable set that makes eating and drinking pleasurable again. We\'re accepting new patients, and we invite clients throughout Toronto to take advantage of our services.'
+      ),
+      _react2.default.createElement(
+         'p',
+         null,
+         'When you visit our office, we\'ll perform an exam to determine whether you need a full set or partials. We can also repair existing dentures if the need arises.'
+      ),
+      _react2.default.createElement(
+         'h4',
+         null,
+         'PARTIAL DENTURES'
+      ),
+      _react2.default.createElement(
+         'p',
+         null,
+         'At Leaside Village Dental, we recognize that no two mouths are alike. When you come to us for partial dentures, we\'ll take the time to evaluate the state of your teeth and come up with a treatment plan specifically for you. You\'ll get our full attention during every appointment, and you\'ll be given the opportunity to ask questions and discuss any concerns you might have.'
+      ),
+      _react2.default.createElement(
+         'h4',
+         null,
+         'FLEXIBLE DENTURES'
+      ),
+      _react2.default.createElement(
+         'p',
+         null,
+         'Made of durable nylon resin, flexible dentures are one of the most cost-effective, comfortable tooth replacement solutions available today. Tooth replacement with flexible dentures is non-surgical. And compared to other types of dentures, flexible dentures are often thought to be more cosmetically pleasing, easier to wear, and more durable. Now that\u2019s something to smile about.'
+      ),
+      _react2.default.createElement(
+         'h4',
+         null,
+         'DENTURE REPAIR'
+      ),
+      _react2.default.createElement(
+         'p',
+         null,
+         'At Leaside Village Dental, we understand how important your dentures are to you. That\'s why we aim to provide prompt, professional denture repair services so that you\u2019re out the door and back to your busy schedule as quickly as possible. '
+      ),
+      _react2.default.createElement(
+         'h4',
+         null,
+         'IMPLANT-SUPPORTED DENTURES'
+      ),
+      _react2.default.createElement(
+         'p',
+         null,
+         'At Leaside Village Dental, we understand that tooth loss and jawbone deterioration can take a toll on your appearance, your health, your comfort level, and your self-esteem. That\'s why we offer implant-supported dentures to eliminate movement of the dentures, improve chewing and most importantly, stop the continuous loss of bone that happens after teeth are lost.'
+      ),
+      _react2.default.createElement(
+         'h4',
+         null,
+         'RESTORING SMILES'
+      ),
+      _react2.default.createElement(
+         'p',
+         null,
+         'Our goal is to improve your overall oral health. In our efforts to do so, we\'ll provide personalized, care that\'s designed to address your specific concerns. We\'re in our Toronto, ON, office every day but Monday, and we offer convenient hours. Give Leaside Village Dental a call when you\'re considering dentures. We\'ll help you review your options.'
+      )
+   );
+};
+
+exports.default = Dentures;
+
+/***/ }),
+/* 389 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var RootCanal = function RootCanal() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'h3',
+      null,
+      'ROOT CANAL DENTISTRY IN TORONTO, ON'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'In the past, teeth with diseased nerves often had to be removed. But thanks to advances in root canal therapy, dentists today are often able to salvage diseased teeth. If your tooth is severely damaged or decayed, come to Leaside Village Dental. Our Toronto, ON dental practice offers services in endodontics and root canals designed to preserve our patients\' teeth.'
+    ),
+    _react2.default.createElement(
+      'h4',
+      null,
+      'DON\'T GIVE UP ON YOUR TEETH'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Even if your teeth seem badly diseased, we may be able to help. If we determine that you\'re a good candidate for root canal therapy, we\'ll take the time to explain the procedure and answer any questions you might have about your treatment. And during your appointment, you\'ll benefit from our thorough approach.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'To learn more about our endodontics and root canal services or to schedule a consultation, call us today. '
+    )
+  );
+};
+exports.default = RootCanal;
+
+/***/ }),
+/* 390 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var familyDentistry = function familyDentistry() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'h3',
+      null,
+      'FAMILY DENTISTRY IN TORONTO, ON'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'At Leaside Village Dental, we believe everyone deserves a bright, beautiful smile and the confidence that comes with it. That\u2019s why we\u2019ve dedicated ourselves to offering quality cosmetic services to our valued dental patients, both young and old. Leaside Village Dental is an established practice in Toronto, ON offering family cosmetic dentistry. We pride ourselves on providing dental care in a welcoming and comfortable environment.'
+    ),
+    _react2.default.createElement(
+      'h4',
+      null,
+      'THE ATTENTION YOU DESERVE'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      ' When you come to us, our dentistry professionals will listen closely to your concerns and provide you with the information and guidance you need to make the right treatment-related decisions. Once we\u2019ve outlined a custom treatment plan, we\'ll do everything we can to provide a positive patient experience.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'At Leaside Village Dental, your teeth are our top priority. Call today for your appointment and see what our talented team can do for your smile.'
+    )
+  );
+};
+
+exports.default = familyDentistry;
+
+/***/ }),
+/* 391 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var generalDentistry = function generalDentistry() {
+  return _react2.default.createElement('div', null);
+};
+
+exports.default = generalDentistry;
 
 /***/ })
 /******/ ]);

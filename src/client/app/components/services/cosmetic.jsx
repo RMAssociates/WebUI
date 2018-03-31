@@ -8,7 +8,7 @@ const Cosmetic = () => (
              results in a far less painful and time-consuming fashion. At Leaside Village Dental,
              we're pleased to offer our valued Toronto, ON patients a variety of cosmetic solutions to suit their aesthetic needs.
     </p>
-    <h3>Improving your Smile</h3>
+    <h4>Improving your Smile</h4>
     <p>
         Whether you're looking to fix a single crooked tooth or desire more extensive cosmetic work, the dedicated team at Leaside Village
          Dental is at your service to provide cost-effective cosmetic dental treatments. When you visit our practice, you'll benefit from
