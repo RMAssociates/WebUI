@@ -27,9 +27,7 @@ export default function Introduction() {
         <li>Weekend and evening appointments</li>
       </ul>
       <p className="col-sm-12 pt-3">
-        <strong>If you have any questions and concerns, reach out to our practice by calling
-          <span className="text-primary"> 647-346-3368 </span> at your
-         earliest convenience.
+        <strong>Call us at 647-346-3368 and our knowledgeble team will be glad to assist you.
         </strong>
       </p>
     </div>

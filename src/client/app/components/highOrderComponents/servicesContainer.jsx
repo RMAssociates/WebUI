@@ -16,7 +16,7 @@ import oralSurgery from '../services/oral-surgery';
 import pediatricDentistry from '../services/pediatric';
 
 export const ServiceContainer = ({ match }) => (
-  <div>
+  <div className="m-4">
     <Route exact path={`${match.url}/cosmetic`} component={cosmetic} />
     <Route exact path={`${match.url}/bridges`} component={bridges} />
     <Route exact path={`${match.url}/crowns`} component={crowns} />

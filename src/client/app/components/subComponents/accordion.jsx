@@ -1,6 +1,7 @@
 import React from 'react';
 import { WorkHours } from './work-hours';
-import SimpleMap from './simple-map';
+// import SimpleMap from './simple-map';
+import RequestForm from './request-appointment-form';
 // eslint-disable-next-line
 export const Accordion = () => (
 
@@ -23,7 +24,7 @@ export const Accordion = () => (
 
       <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
         <div className="card-body">
-              Foem App
+          <RequestForm />
         </div>
       </div>
     </div>
@@ -55,16 +56,7 @@ export const Accordion = () => (
       </div>
       <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
         <div className="card-body">
-          {/* <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.2371886373753!2d-79.36337778430813!3d43.70561965705706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4ccdcef63b299%3A0xc05a3fd17d8a4a48!2sLeaside+Village+Dental!5e0!3m2!1sen!2sca!4v1522029176739"
-            width="600"
-            height="450"
-            frameBorder="0"
-            style="border:0"
-            allowFullScreen
-            title="my-location"
-          /> */}
-          <SimpleMap />
+
         </div>
       </div>
     </div>

@@ -9,22 +9,12 @@ import {
 export default function NavigationBar(props) {
   return (
 
-    <nav className="navbar navbar-expand-lg navbar-dark bg-success row">
-      <div>
+    <nav className=" navbar navbar-expand-lg navbar-dark bg-success row">
+      <div className=" d-none d-md-flex">
         { // eslint-disable-next-line
         <a className="navbar-brand" href="#">
           <img className="float-left img-fluid-header nav-brand-img" src="public/assets/logo_white_b.jpg" alt="Home" />
-          <button
-            className="navbar-toggler float-right menu-header p-2"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarTogglerList"
-            aria-controls="navbarTogglerList"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="text-white">Menu</span>
-          </button>
+
         </a>
         }
       </div>
@@ -87,7 +77,7 @@ export default function NavigationBar(props) {
             <NavLink className="nav-link" to="/meet-us">Meet Us</NavLink>
           </li>
           <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <NavLink className="nav-link" to="/promotions">Promotions</NavLink>
+            <NavLink className="nav-link" to="/promotions">Specials</NavLink>
           </li>
           <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <NavLink className="nav-link" to="/contact">Contact</NavLink>

@@ -3,7 +3,7 @@ import Carousel from '../subComponents/carousel';
 import HomeServices from '../home/homeServices';
 import Introduction from '../home/introduction';
 import { WorkHours } from '../subComponents/work-hours';
-import { RequestAppointmentForm } from '../subComponents/request-appointment-form';
+import RequestAppointmentForm from '../subComponents/request-appointment-form';
 // eslint-disable-next-line
 export const HomeContainer = () => (
   <div>
@@ -17,7 +17,12 @@ export const HomeContainer = () => (
         <WorkHours />
       </div>
       <div className="col-md-6">
-        <RequestAppointmentForm />
+        <div className="card">
+          <div className="card-header">
+           Contact Us
+          </div>
+          <RequestAppointmentForm />
+        </div>
       </div>
     </div>
   </div>
