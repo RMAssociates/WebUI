@@ -9,7 +9,7 @@ import {
 export default function NavigationBar(props) {
   return (
 
-    <nav className=" navbar navbar-expand-lg navbar-dark bg-success row">
+    <nav className=" navbar navbar-expand-lg row">
       <div className=" d-none d-md-flex">
         { // eslint-disable-next-line
         <a className="navbar-brand" href="#">
@@ -21,14 +21,14 @@ export default function NavigationBar(props) {
 
       <div className="collapse navbar-collapse" id="navbarTogglerList">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li className="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <li className="nav-item navbar-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
             <NavLink
               className="nav-link"
               to="/"
             >Home <span className="sr-only">(current)</span>
             </NavLink>
           </li>
-          <li className="nav-item dropdown">
+          <li className="nav-item navbar-item dropdown">
             <div className="">
               <a // eslint-disable-line
                 className="nav-link dropdown-toggle"
@@ -63,31 +63,26 @@ export default function NavigationBar(props) {
               </div>
             </div>
           </li>
-          <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <li className="nav-item navbar-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <NavLink
               className="nav-link"
               to="/about-us"
             >About Us
             </NavLink>
           </li>
-          <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <li className="nav-item navbar-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <NavLink className="nav-link" to="/gallery">Gallery</NavLink>
           </li>
-          <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <li className="nav-item navbar-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <NavLink className="nav-link" to="/meet-us">Meet Us</NavLink>
           </li>
-          <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <li className="nav-item navbar-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <NavLink className="nav-link" to="/promotions">Specials</NavLink>
           </li>
-          <li className="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <li className="nav-item navbar-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <NavLink className="nav-link" to="/contact">Contact</NavLink>
           </li>
         </ul>
-        <form className="form-inline my-2 my-lg-0">
-          <input className="form-control mr-sm-2" type="text" placeholder="Search" />
-          <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-        <hr />
 
       </div>
 

@@ -43,13 +43,13 @@ export default function MobileHeader(props) {
 
       <div className="row  bg-header-white">
         <div className="col-3 no-padding">
-          <button className="btn btn-outline-primary header__button">About us</button>
+          <button className="btn btn-outline-success header__button">About us</button>
         </div>
         <div className="col-4 no-padding">
-          <button className="btn btn-outline-primary header__button">Address &amp; Hours</button>
+          <button className="btn btn-outline-success header__button">Address &amp; Hours</button>
         </div>
         <div className="col-5 no-padding">
-          <button className="btn btn-outline-success header__button">Book an Appointment</button>
+          <button className="btn btn-success header__button">Book an Appointment</button>
         </div>
       </div>
     </div>

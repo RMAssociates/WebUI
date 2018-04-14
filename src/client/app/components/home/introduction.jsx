@@ -8,7 +8,7 @@ export default function Introduction() {
       <h3 className="col-sm-12 text-muted mb-2 d-none d-md-flex">Offering professional oral care solutions.
         Changing lives for the better, One smile at a time
       </h3>
-      <p className="col-sm-12 bg-highlighter-green text-light py-1 lead">
+      <p className="col-sm-12 bg-highlighter-green text-light">
         Our patients love us , Read what our patients have to say About us or come in and find out why
       </p>
       <RequestAppointment />

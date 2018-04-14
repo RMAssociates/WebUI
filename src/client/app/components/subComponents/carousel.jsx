@@ -12,12 +12,15 @@ export default function Carousel() {
       <div className="carousel-inner">
         <div className="carousel-item active ">
           <img className="d-block" src="public/assets/carousel1.jpg" alt="First slide" />
+          <p className="text-center p-3">Changing lives for the better, One smile at a time.</p>
         </div>
         <div className="carousel-item ">
           <img className="d-block" src="public/assets/carousel2.jpg" alt="Second slide" />
+          <p className="text-center p-3">We are accepting new patients.</p>
         </div>
         <div className="carousel-item ">
           <img className="d-block" src="public/assets/carousel1.jpg" alt="Third slide" />
+          <p className="text-center p-3">We are accepting new patients.</p>
         </div>
 
       </div>

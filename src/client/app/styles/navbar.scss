@@ -1,0 +1,21 @@
+.navbar{
+    background: white;//linear-gradient(to bottom, #009999 -1%, #28a745 75%);
+    padding:0 1em;
+}
+
+.nav-link{ color:#218838;}
+.nav-brand-img {
+    max-width: 250px;
+}
+
+
+.nav-brand-mobile-img {
+    max-width: 150px;
+}
+
+.navbar-item{
+    @extend .row;
+    @extend .col-auto;
+    border: 1px lightgray solid;
+    font-size: 13px;
+}

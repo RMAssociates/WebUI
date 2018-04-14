@@ -28,10 +28,10 @@ const App = () => (
           <Routes />
           <div className="col-md-4" id="responsive-reviews-module" />
           <ReviewsContainer />
-          <Footer />
         </div>
         <Redirect from="*" to="/" />
       </Switch>
+      <Footer />
     </div>
   </Router>);
 
