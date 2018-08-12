@@ -1,6 +1,10 @@
-$body-bg: #d7ddd7;
+$body-bg: white;
 $body-color: rgb(54, 53, 53);
 $font-family-base: 'Lato', sans-serif;
 
+
+body{
+    background-color: $body-bg;
+}
 // font-family: 'Playfair Display', serif;
 // font-family: 'Open Sans', sans-serif;

@@ -14,7 +14,10 @@ import Routes from './routes';
 import Header from './components/header';
 import Footer from './components/footer';
 import style from './styles/main.scss';
+//import { handleClientLoad } from './api/gmail';
 
+
+// window.gapi.load('client', handleClientLoad);
 // TO DO
 // https://github.com/reacttraining/react-router/tree/master/packages/react-router-redux
 

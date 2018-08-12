@@ -1,6 +1,6 @@
 import React from 'react';
 import { WorkHours } from './work-hours';
-// import SimpleMap from './simple-map';
+import SimpleMap from './simple-map';
 import RequestForm from './request-appointment-form';
 // eslint-disable-next-line
 export const Accordion = () => (
@@ -53,6 +53,7 @@ export const Accordion = () => (
                 Our location
           </button>
         </h5>
+        <SimpleMap />
       </div>
       <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
         <div className="card-body">

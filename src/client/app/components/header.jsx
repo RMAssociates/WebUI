@@ -3,6 +3,7 @@ import NavigationBar from './subComponents/navigationBar';
 import MobileHeader from './header/mobile';
 
 export default function Header(props) {
+  console.log('Header', props);
   return (
     <div className="">
       <div className="row d-none d-md-flex">

@@ -1,6 +1,7 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 
-export default function MobileHeader(props) {
+export default function MobileHeader() {
   return (
     <div className="d-md-none header__mobile">
       <div className="row  bg-header-white">
@@ -46,7 +47,15 @@ export default function MobileHeader(props) {
           <button className="btn btn-outline-success header__button">About us</button>
         </div>
         <div className="col-4 no-padding">
-          <button className="btn btn-outline-success header__button">Address &amp; Hours</button>
+          <Route render={({ history }) => (
+            <button
+              className="btn btn-outline-success header__button"
+              onClick={() => history.push('/address')}
+            >Address &amp; Hours
+            </button>
+        )}
+          />
+
         </div>
         <div className="col-5 no-padding">
           <button className="btn btn-success header__button">Book an Appointment</button>

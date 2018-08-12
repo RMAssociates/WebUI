@@ -1,14 +1,16 @@
 import React from 'react';
+import SendMail from '../../api/messageComposer';
+
 // eslint-disable-next-line
 const RequestAppointmentForm = () => (
   <div>
     <form>
       <div className="form-group">
-        <label htmlFor="name">Name</label>
+        <label>Name</label>
         <input type="text" className="form-control" id="name" placeholder="Name" />
       </div>
       <div className="form-group">
-        <label htmlFor="exampleInputEmail1">Email address</label>
+        <label>Email address</label>
         <input
           type="email"
           className="form-control"
@@ -18,10 +20,10 @@ const RequestAppointmentForm = () => (
         />
       </div>
       <div className="form-group">
-        <label htmlFor="phone">Phone</label>
+        <label>Phone</label>
         <input type="tel" className="form-control" id="name" placeholder="XXX-XXX-XXXX" />
       </div>
-      <button type="submit" className="btn btn-primary">Submit</button>
+      <button type="button" className="btn btn-primary" onClick={() => SendMail()} >Submit</button>
     </form>
   </div>
 );

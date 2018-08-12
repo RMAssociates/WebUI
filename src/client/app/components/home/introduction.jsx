@@ -1,5 +1,5 @@
 import React from 'react';
-import { RequestAppointment } from '../subComponents/request-appointment.jsx';
+import { RequestAppointment } from '../subComponents/request-appointment';
 
 export default function Introduction() {
   return (
@@ -11,7 +11,7 @@ export default function Introduction() {
       <p className="col-sm-12 bg-highlighter-green text-light">
         Our patients love us , Read what our patients have to say About us or come in and find out why
       </p>
-      <RequestAppointment />
+      {/* <RequestAppointment /> */}
       <p className="col-sm-12 pt-2">
          For the past several years we have provided dental services to your neighbours in Leaside
          and the surrounding areas. Led by Dr. Sohila Methani, who features close to 20 years of

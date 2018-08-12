@@ -1,0 +1,281 @@
+{
+    "html_attributions": [],
+    "result": {
+        "address_components": [
+            {
+                "long_name": "Suite 203",
+                "short_name": "Suite 203",
+                "types": [
+                    "subpremise"
+                ]
+            },
+            {
+                "long_name": "85",
+                "short_name": "85",
+                "types": [
+                    "street_number"
+                ]
+            },
+            {
+                "long_name": "Laird Drive",
+                "short_name": "Laird Dr",
+                "types": [
+                    "route"
+                ]
+            },
+            {
+                "long_name": "East York",
+                "short_name": "East York",
+                "types": [
+                    "sublocality_level_1",
+                    "sublocality",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Toronto",
+                "short_name": "Toronto",
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Toronto Division",
+                "short_name": "Toronto Division",
+                "types": [
+                    "administrative_area_level_2",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Ontario",
+                "short_name": "ON",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "Canada",
+                "short_name": "CA",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "M4G 3T7",
+                "short_name": "M4G 3T7",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "adr_address": "<span class=\"street-address\">85 Laird Dr Suite 203</span>, <span class=\"locality\">East York</span>, <span class=\"region\">ON</span> <span class=\"postal-code\">M4G 3T7</span>, <span class=\"country-name\">Canada</span>",
+        "formatted_address": "85 Laird Dr Suite 203, East York, ON M4G 3T7, Canada",
+        "formatted_phone_number": "(647) 560-2430",
+        "geometry": {
+            "location": {
+                "lat": 43.70561579999999,
+                "lng": -79.36118909999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 43.70693328029149,
+                    "lng": -79.3599896697085
+                },
+                "southwest": {
+                    "lat": 43.7042353197085,
+                    "lng": -79.3626876302915
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+        "id": "42c8c9667fc3437e9f60ce1506cbf36374f462d2",
+        "international_phone_number": "+1 647-560-2430",
+        "name": "Leaside Village Dental",
+        "opening_hours": {
+            "open_now": false,
+            "periods": [
+                {
+                    "close": {
+                        "day": 2,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 2,
+                        "time": "1100"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 3,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 3,
+                        "time": "1100"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 4,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 4,
+                        "time": "1100"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 5,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 5,
+                        "time": "1100"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 6,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 6,
+                        "time": "0900"
+                    }
+                }
+            ],
+            "weekday_text": [
+                "Monday: Closed",
+                "Tuesday: 11:00 AM – 7:00 PM",
+                "Wednesday: 11:00 AM – 7:00 PM",
+                "Thursday: 11:00 AM – 7:00 PM",
+                "Friday: 11:00 AM – 7:00 PM",
+                "Saturday: 9:00 AM – 6:00 PM",
+                "Sunday: Closed"
+            ]
+        },
+        "photos": [
+            {
+                "height": 1936,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112001626708789478343/photos\">Leaside Village Dental</a>"
+                ],
+                "photo_reference": "CmRaAAAA2GTefUiLx1aRS_J6HQXySFJeDmlQQtmqmDQiXVcOVx1ofyLXb9CyKL5c3rFFlXjau0lenRPf9iKfyLEUzpeSg-T_1kNAVc3MdbbDpn7EBymTASjLklvu8qJyJ4nofuiDEhB9koe3WSpCxeRadiiY0hU1GhQcxEDJbL4gJfhnFV_lKSCx1hnjzQ",
+                "width": 2592
+            },
+            {
+                "height": 1936,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112001626708789478343/photos\">Leaside Village Dental</a>"
+                ],
+                "photo_reference": "CmRaAAAA2au9CoOwBcYAz7Pz9kCqsTq9na9CkUzq8yytdoCq1m0jWPPRJHbpiF2Uej4_yz7dW1ihdFU2fohik72V2VjNS4x7vP5LIQkoutNTgF8cdGfEU9xjxdhgc8w2Uq22iMf_EhAoy6W6fdMN7X8s_PSRvRtjGhTriu6eR1PigwG0qTcUVz1sPrnheA",
+                "width": 2592
+            },
+            {
+                "height": 1936,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112001626708789478343/photos\">Leaside Village Dental</a>"
+                ],
+                "photo_reference": "CmRaAAAA_UIYtDHr6sdcjocEsvR14wnwaYGx7iVUC0ZbGJl4QgHaJYkIwngWxh3ZXfOhLgplceYmBCSlWsVWunj_5e8LG8JczOeOlRIdZTIhUHJmyYchwVlpAx8BR1KFRUFzag29EhCTt6N8RcPFNHVb9_iBrch7GhTfdBkv4MIsoi1S5F8izPh51GHCDQ",
+                "width": 2592
+            },
+            {
+                "height": 1936,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112001626708789478343/photos\">Leaside Village Dental</a>"
+                ],
+                "photo_reference": "CmRaAAAAdjhn49ZV1kFurjIZdA5u6nYprhda7CbLdeBUDHThysz0Yp_qvoYP67Z-4PYc8JUrjYkjSxO1pzxAVCLZKaDggv2OS0oBeKtCoip1oIN2_dSi9s7l_fZbXFAiHNza6dChEhC1RQmIRZTt-FYcmlG4dAzJGhRi9lFXFTBYNZnwJOyY0rsBYvGTvw",
+                "width": 2592
+            },
+            {
+                "height": 1936,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112001626708789478343/photos\">Leaside Village Dental</a>"
+                ],
+                "photo_reference": "CmRaAAAAnUQxidov8lg72nJt1iS17f_0xGEYqL70wE6PMaJNtXb6Jjo5bA-GG4o19vpLyoG2ainBCAEw6W5CLO90ceM2aA1yUptF5enfrL0KmATDs5eIOUW2m74_iaDZBqewpygvEhBb_Hak-WRg18Q8Wi7o1xUPGhQS5BfT9VKWtpM7erO-tnJ0R0hokA",
+                "width": 2592
+            },
+            {
+                "height": 278,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112001626708789478343/photos\">Leaside Village Dental</a>"
+                ],
+                "photo_reference": "CmRaAAAAuuSEfniqECa_X4nFaYul9GH4vkLU1nB3fG9IMYNp6ksEE-kkZ83U4LJ0tP8m6H52URXPBv34Dzx3BRKkes6eMjc86CFhNEBLkUJHJQDGmQ1clz28qb1AFNUTwLp_zxZEEhDOhZDD-XY_zjo2wipcZCA5GhRWVOQrrC3LIIqOJILwJqHJ1O70MQ",
+                "width": 349
+            }
+        ],
+        "place_id": "ChIJmbJj79zM1IkRSEqKfdE_WsA",
+        "rating": 5,
+        "reference": "CmRSAAAApQlyzkv7K_Jn25BplLl1jEkoLaHDp0h5CKOqBDatUfEF-gO2Vup1E1jmjp-G71rw4onTAd9_etkQEzgXYcROVumLzc6bMAoBLaiHx_zUo5v8YswLGqoEDiPkkU2uqafZEhBd4lFLBsfadAsSaP0q6EcnGhSRSRnxEhB_vjbmaik-YD1NYKK1sw",
+        "reviews": [
+            {
+                "author_name": "Helen Prancic",
+                "author_url": "https://www.google.com/maps/contrib/109431544156598507555/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh5.googleusercontent.com/-Hxo5EJE1NSE/AAAAAAAAAAI/AAAAAAAAAXg/imzZZM-cgYA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "in the last week",
+                "text": "Dr. Methani and staff of Leaside Village Dental provide exceptional dental care with very close attention to the comfort of their patients. I am very grateful and relieved to know that every appointment will be positive and pain free!",
+                "time": 1523386608
+            },
+            {
+                "author_name": "Safiya Bhabha",
+                "author_url": "https://www.google.com/maps/contrib/104546949028520144864/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/--Fl-S6AeX6Y/AAAAAAAAAAI/AAAAAAAAAAA/ACLGyWB5YJ_O_eWCxG6RZ2umJs2RInSQmQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "3 months ago",
+                "text": "Dr. Methani and her hygienist are AMAZING! They were so gentle with my four year old that he loved his experience and wants to play dentist everyday! She filled his cavity without any unnecessary procedures (unlike other dentists who insists small children need to be put under general anesthesia just to fill a cavity!) and during the procedure he hardly flinched! Both me and him left with huge smiles on our faces! I was literally searching for a dentist like her for two years, I am so happy to have found her and my son and I will likely be her patient for life!",
+                "time": 1515779185
+            },
+            {
+                "author_name": "arif kadiwal",
+                "author_url": "https://www.google.com/maps/contrib/114606157972707963067/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh4.googleusercontent.com/-Muv9jiZbiE8/AAAAAAAAAAI/AAAAAAAAAAA/ACLGyWC2pxT9mfRe72fEJ0S_2lUj3Nk-Rg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "9 months ago",
+                "text": "Awesome Experience!!! Dr. Irfan is very knowledgeable and professional who takes pride in providing excellent care for his patients.",
+                "time": 1498671842
+            },
+            {
+                "author_name": "Mark Ott",
+                "author_url": "https://www.google.com/maps/contrib/109408728296401540391/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh3.googleusercontent.com/-g41nK-VEkSU/AAAAAAAAAAI/AAAAAAAAARM/KSpwY60Zexc/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a year ago",
+                "text": "Dr. Methani is a professional and knowledgeable dentist. She gives options and suits the needs of her patients. I did not feel the needle when I needed freezing. Dr Methani is very gentle and does excellent work. I recommend her to anyone looking for a new dentist.",
+                "time": 1492000928
+            },
+            {
+                "author_name": "barbara livesey",
+                "author_url": "https://www.google.com/maps/contrib/112642701539385487465/reviews",
+                "language": "en",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-PmmduQg9eqA/AAAAAAAAAAI/AAAAAAAAADQ/CvSl02Z6kGA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "rating": 5,
+                "relative_time_description": "a year ago",
+                "text": "I have never had my teeth cleaned so thoroughly and by the dentist not a hygienist.  Also had 3 fillings one of which was deep.  Can't fault this dentist - awesome!",
+                "time": 1490445909
+            }
+        ],
+        "scope": "GOOGLE",
+        "types": [
+            "dentist",
+            "doctor",
+            "health",
+            "point_of_interest",
+            "establishment"
+        ],
+        "url": "https://maps.google.com/?cid=13860460972173052488",
+        "utc_offset": -240,
+        "vicinity": "85 Laird Drive Suite 203, East York",
+        "website": "http://www.myleasidedentist.ca/"
+    },
+    "status": "OK"
+}

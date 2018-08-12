@@ -17,7 +17,7 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.jsx$/,
+        test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/,
         include: APP_DIR,
         use: {

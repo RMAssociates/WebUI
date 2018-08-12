@@ -16,6 +16,8 @@
 .navbar-item{
     @extend .row;
     @extend .col-auto;
+    @media (max-width: 468px){
     border: 1px lightgray solid;
     font-size: 13px;
+    }
 }

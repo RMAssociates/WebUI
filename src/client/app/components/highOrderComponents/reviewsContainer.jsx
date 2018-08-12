@@ -1,9 +1,11 @@
 import React from 'react';
-import YelpReview from '../reviews/yelp.jsx';
+import YelpReview from '../reviews/yelp';
+import GoogleReview from '../reviews/google';
 
 
-export const ReviewsContainer = () => (
-	<div className="row">
-		<YelpReview />
-	</div>
+export default () => (
+  <div className="row">
+    <YelpReview />
+    <GoogleReview />
+  </div>
 );
