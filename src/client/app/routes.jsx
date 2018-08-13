@@ -12,7 +12,7 @@ const Routes = () => (
   <div className="row">
     <div className="col-md-9">
       <Route path="/services" component={ServiceContainer} />
-      <Route exact path="/about-us" component={AboutUs} />
+      <Route path="/about-us" component={AboutUs} />
       <Route path="/meet-us" component={MeetOurDoctor} />
       <Route exact path="/gallery" component={PhotoGallery} />
       <Route exact path="/address" component={AddressPage} />
