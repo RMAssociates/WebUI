@@ -25,9 +25,9 @@ class GoogleMailAPI {
         credentials: 'include',
       },
       body: GoogleMailAPI.formUrlEncoded({
-        client_secret: 'kpl2Zm-ZFSlcAg2MgJ_V_EnF',
+        client_secret: '',
         grant_type: 'authorization_code',
-        client_id: '1082762806394-0bgde7ak01dvlo0jmvlnls9g74ol4fpq.apps.googleusercontent.com',
+        client_id: '.apps.googleusercontent.com',
         redirect_uri: 'https://myleasidedentist.com/oauth2callback',
         code: '4/OAApTOqjtcWnE_zOxvyMw9QQYwzi6YbqI4GN_6lQsqcWMiY3peCpNyvvPJ34J2Va3_PLiKTB2WC98-Zyv5Cqhzo#',
       }),
