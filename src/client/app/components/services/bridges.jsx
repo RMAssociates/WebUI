@@ -2,23 +2,23 @@ import React from 'react';
 
 const Bridges = () => (
   <div>
-    <h4>WHAT ARE DENTAL BRIDGES</h4>
-    <p>Missing teeth can have a serious effect not only on your smile, but also on your oral health.
-		Missing teeth can impact the alignment and integrity of your surrounding teeth,
-	  causing you further problems down the road. And missing teeth can also result in
-	   unwanted periodontal disease and decay. If you're missing teeth, come to Leaside Village Dental,
-	    a Toronto, ON dental office that provides dental bridges to patients in need.
+    <h4>RESTORING AND PROTECTING YOUR TEETH</h4>
+    <p>When your teeth sustain substantial damage such as chipping, breakage, or decay, then you need a trained dental professional to aid in the healing and restoration process. We at Leaside Village Dental can apply porcelain crowns to your compromised teeth to protect them from further damage. Crowns are also commonly used to guard your teeth following a root canal procedure.
     </p>
+    <p>If you are missing teeth and experiencing issues with your bite or teeth placement, our expert team at Leaside Village Dental can address those concerns with custom-made bridges. Your dental bridge will be individually created to fit properly into your mouth and sufficiently fill gaps left by missing teeth.
 
-    <h4>MULTIPLE BENEFITS</h4>
-    <p>Dental bridges from Leaside Village Dental can fill in the gaps where teeth are missing while helping
-	 to preserve the structure of your remaining teeth and bite. Our dental bridges are designed to help our
-	  Toronto, ON patients eat more comfortably and smile more confidently. And when you come to Leaside Village
-	   Dental for dental bridges, you'll benefit from our dedicated staff and individualized approach to restorative
-	    dentistry.
-    </p>
+</p>
 
-    <p>To find out more about dental bridges or to schedule an appointment, call Leaside Village Dental today.</p>
+    <p>The positive attributes of our dental crowns and bridges include:</p>
+
+    <ul>
+      <li>Individualized fit</li>
+      <li>Durability and longevity</li>
+      <li>Naturally colored and shaped</li>
+      <li>Alleviated biting and chewing issues</li>
+    </ul>
+
+    <p>For any questions or concerns about our dental crowns and bridges, reach out to our Leaside Village Dental team by calling 647-346-3368 today!</p>
 
   </div>
 );

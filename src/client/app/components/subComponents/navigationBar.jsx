@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  NavLink,
-} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 export default function NavigationBar(props) {
@@ -42,8 +38,10 @@ export default function NavigationBar(props) {
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <NavLink className="dropdown-item" to="/services/cosmetic">Cosmetic Dentistry</NavLink>
-                <NavLink className="dropdown-item" to="/services/bridges">Dental Bridges</NavLink>
-                <NavLink className="dropdown-item" to="/services/crowns">Dental Crowns</NavLink>
+                <NavLink className="dropdown-item" to="/services/bridges">Crowns and Bridges</NavLink>
+                {/*
+                  <NavLink className="dropdown-item" to="/services/crowns">Dental Crowns</NavLink>
+                  */}
                 <NavLink className="dropdown-item" to="/services/implants">Dental Implants</NavLink>
                 <NavLink className="dropdown-item" to="/services/dentures">Dentures</NavLink>
                 <NavLink className="dropdown-item" to="/services/root-canal">Endodontics and Root Canals</NavLink>
