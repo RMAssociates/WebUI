@@ -2,22 +2,26 @@ import React from 'react';
 
 const Cosmetic = () => (
   <div>
-    <h4>COSMETICS IN DENTISTRY</h4>
-    <p>Years ago, aesthetic improvements in dentistry often meant multiple appointments and invasive procedures.
-             But thanks to advances in cosmetic dentistry, dental professionals these days are able to help patients achieve spectacular
-             results in a far less painful and time-consuming fashion. At Leaside Village Dental,
-             we're pleased to offer our valued Toronto, ON patients a variety of cosmetic solutions to suit their aesthetic needs.
+    <h4>GET THE SMILE YOU DESERVE!</h4>
+    <p>If you have dental imperfections that you would like to address, our experienced team at Leaside Village Dental can help you achieve your desired smile through cosmetic procedures.
     </p>
+    <p>We offer several types of cosmetic dentistry services including:
+    </p>
+    <ul>
+      <li>Teeth Whitening</li>
+      <li>Tooth-Colored Fillings</li>
+      <li>Crowns</li>
+      <li>Bonding</li>
+      <li>Veneers</li>
+      <li>Invisalign</li>
+      <li>Dental Implants</li>
+    </ul>
     <h4>IMPROVING YOUR SMILE</h4>
     <p>
-        Whether you're looking to fix a single crooked tooth or desire more extensive cosmetic work, the dedicated team at Leaside Village
-         Dental is at your service to provide cost-effective cosmetic dental treatments. When you visit our practice, you'll benefit from
-          our individualized, attentive approach to cosmetic dentistry. And because
-         we want you to be comfortable with your course of treatment, we'll take the time to address your concerns before we get started.
+        Whether you want a simple teeth whitening or a more involved procedure such as dental implants or veneers, our professionals can provide you with the confident smile you deserve. Our dental practice has remained updated on the latest in dental technology and cosmetic procedures to allow for nearly imperceptible adjustments. Schedule a consultation with our Leaside Village Dental cosmetic dentists to help decide your best course of action.
     </p>
     <p>
-            With convenient appointment scheduling and a friendly office staff, Leaside Village Dental is the place to go in Toronto,
-            ON for cosmetic dentistry services. For more information or to schedule a consultation, call us today.
+      To schedule your cosmetic dentistry appointment, contact us by calling 647-346-3368 today!
     </p>
   </div>
 );

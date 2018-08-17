@@ -14,6 +14,10 @@ import generalDentistry from '../services/general-dentistry';
 import orthodontics from '../services/orthodontics';
 import oralSurgery from '../services/oral-surgery';
 import pediatricDentistry from '../services/pediatric';
+import periodontics from '../services/periodontics';
+import sedationDentistry from '../services/sedation-dentistry';
+import teethWhitening from '../services/teeth-whitening';
+import invisalignBraces from '../services/invisalign-braces';
 
 export const ServiceContainer = ({ match }) => (
   <div className="m-4">
@@ -28,6 +32,10 @@ export const ServiceContainer = ({ match }) => (
     <Route exact path={`${match.url}/orthodontics`} component={orthodontics} />
     <Route exact path={`${match.url}/oral-surgery`} component={oralSurgery} />
     <Route exact path={`${match.url}/pediatric`} component={pediatricDentistry} />
+    <Route exact path={`${match.url}/periodontics`} component={periodontics} />
+    <Route exact path={`${match.url}/sedation-dentistry`} component={sedationDentistry} />
+    <Route exact path={`${match.url}/teeth-whitening`} component={teethWhitening} />
+    <Route exact path={`${match.url}/invisalign-braces`} component={invisalignBraces} />
     {/*
     <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
       <Link to={`${match.url}/rendering`}>Rendering with React</Link>

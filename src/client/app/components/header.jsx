@@ -15,8 +15,9 @@ export default function Header(props) {
         <div className="col-sm-3">
           <p className="text-primary float-right font-weight-bold align-bottom">
             <i className="fa fa-phone-square" aria-hidden="true" />
-              647-346-3368sw
+              647-346-3368
           </p>
+          <br />
           <button className="btn btn-success float-right mb-0">Emergency Appointment</button>
         </div>
       </div>
