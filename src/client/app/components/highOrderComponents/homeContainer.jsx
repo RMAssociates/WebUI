@@ -2,8 +2,10 @@ import React from 'react';
 import Carousel from '../subComponents/carousel';
 import HomeServices from '../home/homeServices';
 import Introduction from '../home/introduction';
+import MapLocation from '../address/mapLocation';
 import { WorkHours } from '../subComponents/work-hours';
 import RequestAppointmentForm from '../subComponents/request-appointment-form';
+import ReviewsContainer from './reviewsContainer';
 // eslint-disable-next-line
 export const HomeContainer = () => (
   <div>
@@ -11,6 +13,7 @@ export const HomeContainer = () => (
       <Carousel />
       <HomeServices />
       <Introduction />
+      <ReviewsContainer />
     </div>
     <div className="row">
       <div className="col-md-6">
@@ -25,5 +28,9 @@ export const HomeContainer = () => (
         </div>
       </div>
     </div>
+    <div className="row">
+      <MapLocation />
+    </div>
+
   </div>
 );

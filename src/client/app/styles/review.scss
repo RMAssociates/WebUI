@@ -28,45 +28,36 @@
   border: 1px solid #cecece;
 }
 
-/****Rating Stars***/
-.raterater-bg-layer {
-    color: rgba( 0, 0, 0, 0.25 );
-}
-.raterater-hover-layer {
-    color: rgba( 255, 255, 0, 0.75 );
-}
-.raterater-hover-layer.rated { /* after the user selects a rating */
-    color: rgba( 255, 255, 0, 1 );
-}
-.raterater-rating-layer {
-    color: rgba( 255, 155, 0, 0.75 );
-}
-.raterater-outline-layer {
-    color: rgba( 0, 0, 0, 0.25 );
-}
+#review-summary {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  #review-summary p.collapse:not(.show) {
+      height: 42px !important;
+      overflow: hidden;
+    
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;  
+  }
+  
+  #review-summary p.collapsing {
+  }
+  
+  #review-summary a.collapsed:after  {
+      content: '+ Read More';
+  }
+  
+  #review-summary a:not(.collapsed):after {
+      content: '- Read Less';
+  }
+  
 
-/* don't change these - you might break something.. */
-.raterater-wrapper {
-    overflow:visible;
-}
 
-.software .raterater-wrapper {
-    margin-top: 4px;
-}
-
-.raterater-layer,
-.raterater-layer i {
-    display: block;
-    position: absolute;
-    overflow: visible;
-    top: 0px;
-    left: 0px;
-}
-.raterater-hover-layer {
-    display: none;
-}
-.raterater-hover-layer i,
-.raterater-rating-layer i {
-    width: 0px;
-    overflow: hidden;
-}
+.star-rating {
+    line-height:32px;
+    font-size:1.25em;
+  }
+  
+  .star-rating .fa-star{color: #ba8817fa;}

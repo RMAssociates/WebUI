@@ -50,11 +50,11 @@ const config = {
         }],
       },
       { test: /\.(jpe?g|gif|png|svg|woff|ttf|wav|mp3|eot|woff2)$/, loader: 'file-loader' },
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: ['babel-loader', 'eslint-loader'],
-      },
+      // {
+      //   test: /\.js$/,
+      //   exclude: /node_modules/,
+      //   use: ['babel-loader', 'eslint-loader'],
+      // },
 
     ],
   },
@@ -94,12 +94,16 @@ const config = {
       // In case you imported plugins individually, you must also require them here:
       Util: 'exports-loader?Util!bootstrap/js/dist/util',
       Dropdown: 'exports-loader?Dropdown!bootstrap/js/dist/dropdown',
-      Collapse: 'exports-loader?Dropdown!bootstrap/js/dist/collapse',
+      Collapse: 'exports-loader?Collapse!bootstrap/js/dist/collapse',
     }),
     new CopyWebpackPlugin([
       // Copy directory contents to {output}/to/directory/
       { from: `${APP_DIR}/assets`, to: `${BUILD_DIR}/assets` },
     ]),
+    new webpack.SourceMapDevToolPlugin({
+      filename: '[name].js.map',
+      exclude: ['vendor.js'],
+    }),
     // new BrowserSyncPlugin({
     //      host: 'localhost',
     //      port: 3000,

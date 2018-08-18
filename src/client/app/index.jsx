@@ -1,4 +1,5 @@
 import React from 'react';
+import { Provider } from 'react-redux';
 import { render } from 'react-dom';
 import {
   BrowserRouter as Router,
@@ -14,14 +15,16 @@ import Routes from './routes';
 import Header from './components/header';
 import Footer from './components/footer';
 import style from './styles/main.scss';
+import configureStore from './redux/store/configureStore';
 
+const store = configureStore();
 
 // TO DO
 // https://github.com/reacttraining/react-router/tree/master/packages/react-router-redux
 
 const App = () => (
   <Router>
-    <div className="container-fluid">
+    <div className="container">
       <Header />
       <Switch>
         <Route exact path="/" component={HomeContainer} />
@@ -35,5 +38,9 @@ const App = () => (
       <Footer />
     </div>
   </Router>);
-
-render(<App />, document.getElementById('app'));
+const AppRedux = () => (
+  <Provider store={store}>
+    <App />
+  </Provider>
+);
+render(<AppRedux />, document.getElementById('app'));

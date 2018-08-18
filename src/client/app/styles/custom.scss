@@ -1,10 +1,13 @@
 $body-bg: white;
 $body-color: rgb(54, 53, 53);
 $font-family-base: 'Lato', sans-serif;
-
+//$text-emphasize-color: #4b4c4dd4;
 
 body{
     background-color: $body-bg;
+}
+.text-emphasize{
+    color: hsla(210, 3%, 29%, 0.831);
 }
 // font-family: 'Playfair Display', serif;
 // font-family: 'Open Sans', sans-serif;
