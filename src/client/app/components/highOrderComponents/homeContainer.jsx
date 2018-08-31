@@ -11,9 +11,9 @@ export const HomeContainer = () => (
   <div>
     <div className="row">
       <Carousel />
-      <HomeServices />
-      <Introduction />
+      {/* <HomeServices /> */}
       <ReviewsContainer />
+      <Introduction />
     </div>
     <div className="row">
       <div className="col-md-6">
@@ -31,6 +31,6 @@ export const HomeContainer = () => (
     <div className="row">
       <MapLocation />
     </div>
-
+    <div className="row my-5" />
   </div>
 );

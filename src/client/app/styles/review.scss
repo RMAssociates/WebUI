@@ -3,6 +3,7 @@
   padding: 15px;
   max-width: 768px;
   margin: 0 auto;
+  
 }
 
 .review-item{
@@ -62,3 +63,19 @@
   }
   
   .star-rating .fa-star{color: #ba8817fa;}
+
+  .review-prev{
+      width: 42px;
+      height: 42px;
+      top: -65px;
+      background: #00521d;
+      color: #fff;
+      border: 0;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      -webkit-background-clip: padding-box;
+      -moz-background-clip: padding;
+      background-clip: padding-box;
+      cursor: pointer;
+  }
