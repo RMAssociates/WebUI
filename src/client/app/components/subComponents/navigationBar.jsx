@@ -83,6 +83,11 @@ export default function NavigationBar(props) {
         </ul>
 
       </div>
+      <div className="d-none d-md-flex">
+        <div><p className="navbar-right-section">647-346-3368</p>
+          <button className="btn btn-success float-right mb-0">Emergency Appointment</button>
+        </div>
+      </div>
 
     </nav>
   );

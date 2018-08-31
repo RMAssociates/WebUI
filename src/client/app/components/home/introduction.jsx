@@ -4,7 +4,7 @@ import { RequestAppointment } from '../subComponents/request-appointment';
 export default function Introduction() {
   return (
     <div className="col-sm-12 pt-1">
-      <h1 className="col-sm-12 text-success mb-1 d-none d-md-block">Welcome to Leaside Village Dental</h1>
+      <h1 className="col-sm-12 text-success my-3 d-none d-md-block">Welcome to Leaside Village Dental</h1>
       <h3 className="col-sm-12 text-muted mb-2 d-none d-md-flex">Offering professional oral care solutions.
         Changing lives for the better, One smile at a time
       </h3>
