@@ -5,14 +5,14 @@ import Introduction from '../home/introduction';
 import MapLocation from '../address/mapLocation';
 import { WorkHours } from '../subComponents/work-hours';
 import RequestAppointmentForm from '../subComponents/request-appointment-form';
-import ReviewsContainer from './reviewsContainer';
+
 // eslint-disable-next-line
 export const HomeContainer = () => (
   <div>
     <div className="row">
       <Carousel />
       {/* <HomeServices /> */}
-      <ReviewsContainer />
+      
       <Introduction />
     </div>
     <div className="row">

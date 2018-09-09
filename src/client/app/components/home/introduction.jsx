@@ -1,5 +1,6 @@
 import React from 'react';
 import { RequestAppointment } from '../subComponents/request-appointment';
+import ReviewsContainer from '../highOrderComponents/reviewsContainer';
 
 export default function Introduction() {
   return (
@@ -18,15 +19,19 @@ export default function Introduction() {
          dental experience, our practice creates an
          environment of care and trust. Our wide range of services conveniently address your oral care needs.
       </p>
-
-      <ul>
-        {/* Why choose us? */}
-        <li>Accepting new patients </li>
-        <li>Comfortable, relaxing environment </li>
-        <li>Same day emergency appointments</li>
-        <li>Weekend and evening appointments</li>
-      </ul>
-      <p className="col-sm-12 pt-3">
+      <div className="row">
+        <div>
+          <ul>
+            {/* Why choose us? */}
+            <li>Accepting new patients </li>
+            <li>Comfortable, relaxing environment </li>
+            <li>Same day emergency appointments</li>
+            <li>Weekend and evening appointments</li>
+          </ul>
+        </div>
+        <div><ReviewsContainer /></div>
+      </div>
+      <p className="col-sm-12 py-3 text-center text-info">
         <strong>Call us at 647-346-3368 and our knowledgeble team will be glad to assist you.
         </strong>
       </p>
