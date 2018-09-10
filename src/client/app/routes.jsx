@@ -16,6 +16,7 @@ const Routes = () => (
       <Route path="/meet-us" component={MeetOurDoctor} />
       <Route exact path="/gallery" component={PhotoGallery} />
       <Route exact path="/address" component={AddressPage} />
+      <Route exact path="/appointment" component={AddressPage} />
     </div>
     <div className="col-md-3">
       <Accordion />

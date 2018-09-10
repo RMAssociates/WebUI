@@ -44,7 +44,14 @@ export default function MobileHeader() {
 
       <div className="row  bg-header-white">
         <div className="col-3 no-padding">
-          <button className="btn btn-outline-success header__button">About us</button>
+          <Route render={({ history }) => (
+            <button
+              className="btn btn-outline-success header__button"
+              onClick={() => history.push('/meet-us')}
+            >Meet Us
+            </button>
+        )}
+          />
         </div>
         <div className="col-4 no-padding">
           <Route render={({ history }) => (

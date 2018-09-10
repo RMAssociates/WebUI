@@ -2,7 +2,7 @@ import React from 'react';
 // eslint-disable-next-line
 export const WorkHours = () => (
   <div className="card">
-    <div className="card-header">
+    <div className="card-header bg-success text-white">
            Working Hours
     </div>
     <div className="card-body">

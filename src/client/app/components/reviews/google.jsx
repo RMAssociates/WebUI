@@ -70,6 +70,9 @@ class GoogleReview extends React.Component {
   render() {
     return (
       <div className="reviews row blockquote review-item">
+        <p className="col-sm-12 bg-highlighter-green text-light">
+        Our patients love us , Read what our patients have to say About us or come in and find out why
+        </p>
         <div className="btn-group offset-sm-5 offset-3">
           <button type="button" className="review-prev" onClick={() => this.handleClickPrevious()}>
             <i className="fa fa-angle-left fa-2x" />

@@ -15,19 +15,21 @@ class RequestAppointmentFormC extends Component {
       handleSubmit, pristine, reset, submitting,
     } = this.props;
     return (
-      <div>
+      <div className="m-2">
         <form onSubmit={handleSubmit(data => ContactUs.send(data))}>
-          <div className="form-group">
+          <div className="form-group  w-75">
             <label htmlFor="name">Name</label>
             <Field
+              className="form-control"
               name="name"
               component="input"
               type="text"
             />
           </div>
-          <div className="form-group">
+          <div className="form-group  w-50">
             <label htmlFor="emailAddress">Email address</label>
             <Field
+              className="form-control"
               name="emailAddress"
               component="input"
               type="text"
@@ -36,13 +38,22 @@ class RequestAppointmentFormC extends Component {
           <div className="form-group w-50">
             <label>Phone</label>
             <Field
+              className="form-control"
               name="phoneNumber"
               component="input"
               type="text"
             />
           </div>
+          <div className="form-group">
+            <label>Message</label>
+            <Field
+              className="form-control"
+              name="message"
+              component="textarea"
+            />
+          </div>
           <button
-            className="btn btn-primary w-50 offset-3"
+            className="btn btn-outline-primary w-50 offset-3"
             type="submit"
             disabled={pristine || submitting}
           >Submit

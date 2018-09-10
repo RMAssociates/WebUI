@@ -21,14 +21,14 @@ export const HomeContainer = () => (
       </div>
       <div className="col-md-6">
         <div className="card">
-          <div className="card-header">
+          <div className="card-header bg-success text-white">
            Contact Us
           </div>
           <RequestAppointmentForm />
         </div>
       </div>
     </div>
-    <div className="row">
+    <div className="">
       <MapLocation />
     </div>
     <div className="row my-5" />

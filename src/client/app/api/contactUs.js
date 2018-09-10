@@ -1,7 +1,7 @@
 
 class ContactUs {
   static send(message) {
-    return fetch('http://35.190.171.119:86/api/email', {
+    return fetch('http://myleasidedentist.com:86/api/email', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
