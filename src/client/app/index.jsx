@@ -1,5 +1,6 @@
 import React from 'react';
-import { Provider } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { Provider, connect } from 'react-redux';
 import { render } from 'react-dom';
 import {
   BrowserRouter as Router,
@@ -18,9 +19,17 @@ import style from './styles/main.scss';
 import configureStore from './redux/store/configureStore';
 
 const store = configureStore();
+// console.log(store.getState());
+// store.subscribe(() => console.log('store', store.getState()));
 
 // TO DO
 // https://github.com/reacttraining/react-router/tree/master/packages/react-router-redux
+// const ConnectedRoot = connect(
+//   state => ({
+//     state: state.reducer,
+//   }),
+//   null,
+// )(HomeContainer);
 
 const App = () => (
   <Router>

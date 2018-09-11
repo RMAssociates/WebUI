@@ -1,0 +1,47 @@
+{
+    "reviews": [
+        {
+            "id": "hhrnOmARWYS17EewkUtmIQ",
+            "url": "https://www.yelp.com/biz/leaside-village-dental-toronto-2?hrid=hhrnOmARWYS17EewkUtmIQ&adjust_creative=7UGtCvOF5mkmbUaegjwDEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7UGtCvOF5mkmbUaegjwDEA",
+            "text": "My follow up was a great success. Dr Mathani suggested to start with a palpotomy. Hope I got the spelling right. I had freezing done for the procedure and...",
+            "rating": 5,
+            "time_created": "2015-05-15 09:15:24",
+            "user": {
+                "id": "7Kcu72Rgvop8MpoCCv_9cw",
+                "profile_url": "https://www.yelp.com/user_details?userid=7Kcu72Rgvop8MpoCCv_9cw",
+                "image_url": "https://s3-media2.fl.yelpcdn.com/photo/vTxm-TBitKx69UGN2GzxEw/o.jpg",
+                "name": "Sunder P."
+            }
+        },
+        {
+            "id": "x4fi6sA3dxY4H9n38bhRHw",
+            "url": "https://www.yelp.com/biz/leaside-village-dental-toronto-2?hrid=x4fi6sA3dxY4H9n38bhRHw&adjust_creative=7UGtCvOF5mkmbUaegjwDEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7UGtCvOF5mkmbUaegjwDEA",
+            "text": "Fantastic experience if you have kids. They are extremely patient with our daughter who is very sensitive to loud noises. They took their time and were...",
+            "rating": 5,
+            "time_created": "2017-07-29 11:01:09",
+            "user": {
+                "id": "_K_kWKakiCOyoYQZgf7ShQ",
+                "profile_url": "https://www.yelp.com/user_details?userid=_K_kWKakiCOyoYQZgf7ShQ",
+                "image_url": "https://s3-media1.fl.yelpcdn.com/photo/o5fNmhcwvmr7bsGzFBYG0Q/o.jpg",
+                "name": "What W."
+            }
+        },
+        {
+            "id": "5cqXlDJRPWqDUo9ImMXaag",
+            "url": "https://www.yelp.com/biz/leaside-village-dental-toronto-2?hrid=5cqXlDJRPWqDUo9ImMXaag&adjust_creative=7UGtCvOF5mkmbUaegjwDEA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7UGtCvOF5mkmbUaegjwDEA",
+            "text": "Awesome!\nVery professional and were able to answer all my questions. They were also very meticulous in the cleaning and every check they did. Dr. Methani...",
+            "rating": 5,
+            "time_created": "2015-10-27 12:09:51",
+            "user": {
+                "id": "EyYzeNgkbJTTyXteAM3EUA",
+                "profile_url": "https://www.yelp.com/user_details?userid=EyYzeNgkbJTTyXteAM3EUA",
+                "image_url": "https://s3-media4.fl.yelpcdn.com/photo/Y8QuAjsAp7wi5eAQAQaBQA/o.jpg",
+                "name": "Daisy L."
+            }
+        }
+    ],
+    "total": 6,
+    "possible_languages": [
+        "en"
+    ]
+}

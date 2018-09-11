@@ -1,31 +1,82 @@
-import React from 'react';
-import SendMail from '../../api/messageComposer';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { Field, reduxForm } from 'redux-form';
+import ContactUs from '../../api/contactUs';
+
+const handleSubmitHandle = (e, data) => {
+  e.prevent.default();
+  console.log('Submission received!', data);
+};
 
 // eslint-disable-next-line
-const RequestAppointmentForm = () => (
-  <div>
-    <form>
-      <div className="form-group">
-        <label>Name</label>
-        <input type="text" className="form-control" id="name" placeholder="Name" />
+class RequestAppointmentFormC extends Component {
+  render() {
+    const {
+      handleSubmit, pristine, reset, submitting,
+    } = this.props;
+    return (
+      <div className="m-2">
+        <form onSubmit={handleSubmit(data => ContactUs.send(data))}>
+          <div className="form-group  w-75">
+            <label htmlFor="name">Name</label>
+            <Field
+              className="form-control"
+              name="name"
+              component="input"
+              type="text"
+            />
+          </div>
+          <div className="form-group  w-50">
+            <label htmlFor="emailAddress">Email address</label>
+            <Field
+              className="form-control"
+              name="emailAddress"
+              component="input"
+              type="text"
+            />
+          </div>
+          <div className="form-group w-50">
+            <label>Phone</label>
+            <Field
+              className="form-control"
+              name="phoneNumber"
+              component="input"
+              type="text"
+            />
+          </div>
+          <div className="form-group">
+            <label>Message</label>
+            <Field
+              className="form-control"
+              name="message"
+              component="textarea"
+            />
+          </div>
+          <button
+            className="btn btn-outline-primary w-50 offset-3"
+            type="submit"
+            disabled={pristine || submitting}
+          >Submit
+          </button>
+        </form>
       </div>
-      <div className="form-group">
-        <label>Email address</label>
-        <input
-          type="email"
-          className="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-          placeholder="Enter email"
-        />
-      </div>
-      <div className="form-group">
-        <label>Phone</label>
-        <input type="tel" className="form-control" id="name" placeholder="XXX-XXX-XXXX" />
-      </div>
-      <button type="button" className="btn btn-primary" onClick={() => SendMail()} >Submit</button>
-    </form>
-  </div>
-);
+    );
+  }
+}
 
-export default RequestAppointmentForm;
+const mapDispatchToProps = state => ({
+  abc: state.form,
+});
+
+const mapStateToProps = dispatch => ({
+  // ...
+});
+
+const RequestAppointmentForm = connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(RequestAppointmentFormC);
+
+export default reduxForm({
+  form: 'contactus', // a unique identifier for this form
+})(RequestAppointmentForm);

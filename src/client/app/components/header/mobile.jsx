@@ -6,7 +6,7 @@ export default function MobileHeader() {
     <div className="d-md-none header__mobile">
       <div className="row  bg-header-white">
         <div className="col-5 no-padding">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img
               className="float-left img-fluid-header nav-brand-mobile-img"
               src="public/assets/logo_white_b.jpg"
@@ -15,8 +15,8 @@ export default function MobileHeader() {
           </a>
         </div>
         <div className="col-7 header-m-phone">
-          <span className="">
-            <a href="tel:647-560-2430" className="text-emphasize">
+          <span className="text-center">
+            <a href="tel:647-560-2430" className="text-emphasize text-center">
               <i className="fa fa-phone-square fa-1x" aria-hidden="true" />
              &nbsp;647-346-3368
             </a>
@@ -44,7 +44,14 @@ export default function MobileHeader() {
 
       <div className="row  bg-header-white">
         <div className="col-3 no-padding">
-          <button className="btn btn-outline-success header__button">About us</button>
+          <Route render={({ history }) => (
+            <button
+              className="btn btn-outline-success header__button"
+              onClick={() => history.push('/meet-us')}
+            >Meet Us
+            </button>
+        )}
+          />
         </div>
         <div className="col-4 no-padding">
           <Route render={({ history }) => (
