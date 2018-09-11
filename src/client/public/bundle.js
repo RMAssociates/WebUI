@@ -51284,7 +51284,7 @@ function Carousel() {
       _react2.default.createElement(
         "div",
         { className: "carousel-item active " },
-        _react2.default.createElement("img", { className: "d-block", src: "public/assets/carousel1.jpg", alt: "First slide" }),
+        _react2.default.createElement("img", { className: "d-block", src: "public/assets/carousel2.jpg", alt: "First slide" }),
         _react2.default.createElement(
           "div",
           { className: "" },
@@ -51312,7 +51312,7 @@ function Carousel() {
       _react2.default.createElement(
         "div",
         { className: "carousel-item " },
-        _react2.default.createElement("img", { className: "d-block", src: "public/assets/carousel1.jpg", alt: "Third slide" }),
+        _react2.default.createElement("img", { className: "d-block", src: "public/assets/reception1.jpg", alt: "Third slide" }),
         _react2.default.createElement(
           "div",
           { className: "" },
@@ -51609,13 +51609,26 @@ var _google = __webpack_require__(417);
 
 var _google2 = _interopRequireDefault(_google);
 
+var _rateABiz = __webpack_require__(691);
+
+var _rateABiz2 = _interopRequireDefault(_rateABiz);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = function () {
   return _react2.default.createElement(
     'div',
-    { className: 'row offset-sm-2' },
-    _react2.default.createElement(_google2.default, null)
+    null,
+    _react2.default.createElement(
+      'div',
+      { className: 'row offset-sm-2' },
+      _react2.default.createElement(_google2.default, null)
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'row' },
+      _react2.default.createElement(_rateABiz2.default, null)
+    )
   );
 };
 
@@ -84413,7 +84426,7 @@ function NavigationBar(props) {
       // eslint-disable-next-line
       _react2.default.createElement(
         'a',
-        { className: 'navbar-brand', href: '#' },
+        { className: 'navbar-brand', href: '/' },
         _react2.default.createElement('img', { className: 'float-left img-fluid-header nav-brand-img', src: 'public/assets/logo_white_b.jpg', alt: 'Home' })
       )
     ),
@@ -84657,7 +84670,7 @@ function MobileHeader() {
         { className: 'col-5 no-padding' },
         _react2.default.createElement(
           'a',
-          { className: 'navbar-brand', href: '#' },
+          { className: 'navbar-brand', href: '/' },
           _react2.default.createElement('img', {
             className: 'float-left img-fluid-header nav-brand-mobile-img',
             src: 'public/assets/logo_white_b.jpg',
@@ -85145,6 +85158,32 @@ var appInit = {
 };
 
 exports.default = appInit;
+
+/***/ }),
+/* 691 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function () {
+  return _react2.default.createElement(
+    "div",
+    null,
+    _react2.default.createElement("div", { id: "responsive-reviews-module" })
+  );
+};
+// http://s3.amazonaws.com/cdn.rateabiz.com/reviews/45213e5dc12904d0f4c294eee34a6a3d/reviews.json
 
 /***/ })
 /******/ ]);

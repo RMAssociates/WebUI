@@ -6,7 +6,7 @@ export default function MobileHeader() {
     <div className="d-md-none header__mobile">
       <div className="row  bg-header-white">
         <div className="col-5 no-padding">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img
               className="float-left img-fluid-header nav-brand-mobile-img"
               src="public/assets/logo_white_b.jpg"

@@ -11,7 +11,7 @@ export default function Carousel() {
 
       <div className="carousel-inner">
         <div className="carousel-item active ">
-          <img className="d-block" src="public/assets/carousel1.jpg" alt="First slide" />
+          <img className="d-block" src="public/assets/carousel2.jpg" alt="First slide" />
           <div className="">
             <p className="text-center py-3">Changing lives for the better, One smile at a time.</p>
           </div>
@@ -23,7 +23,7 @@ export default function Carousel() {
           </div>
         </div>
         <div className="carousel-item ">
-          <img className="d-block" src="public/assets/carousel1.jpg" alt="Third slide" />
+          <img className="d-block" src="public/assets/reception1.jpg" alt="Third slide" />
           <div className="">
             <p className="text-center py-3">Changing lives for the better, One smile at a time.</p>
           </div>

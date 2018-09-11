@@ -8,7 +8,7 @@ export default function NavigationBar(props) {
     <nav className=" navbar navbar-expand-lg row">
       <div className=" d-none d-md-flex">
         { // eslint-disable-next-line
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <img className="float-left img-fluid-header nav-brand-img" src="public/assets/logo_white_b.jpg" alt="Home" />
 
         </a>
