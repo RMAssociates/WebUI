@@ -15,8 +15,8 @@ export default function MobileHeader() {
           </a>
         </div>
         <div className="col-7 header-m-phone">
-          <span className="">
-            <a href="tel:647-560-2430" className="text-emphasize">
+          <span className="text-center">
+            <a href="tel:647-560-2430" className="text-emphasize text-center">
               <i className="fa fa-phone-square fa-1x" aria-hidden="true" />
              &nbsp;647-346-3368
             </a>

@@ -3,7 +3,7 @@ import React from 'react';
 import mockPlaces from '../../../../server/API.Cloud/places.json';
 
 const Ratings = actual => (
-  <div className="star-rating my-3">
+  <div className="star-rating my-3 text-center text-md-left">
     {[1, 2, 3, 4, 5].map(i => <span className="fa fa-star" />)}
   </div>
 );
@@ -70,8 +70,8 @@ class GoogleReview extends React.Component {
   render() {
     return (
       <div className="reviews row blockquote review-item">
-        <p className="col-sm-12 bg-highlighter-green text-light">
-        Our patients love us , Read what our patients have to say About us or come in and find out why
+        <p className="col-sm-12 lead text-center f-600">
+        Read why our patients love us !
         </p>
         <div className="btn-group offset-sm-5 offset-3">
           <button type="button" className="review-prev" onClick={() => this.handleClickPrevious()}>

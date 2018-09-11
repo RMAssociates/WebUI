@@ -7,13 +7,21 @@
 }
 
 
-h1, h3 {
-    font-family: 'Times New Roman', Times, serif !important;
-}
+// h1, h3 {
+//     font-family: 'Times New Roman', Times, serif !important;
+// }
 
 li {
     font-size: 1.1rem;
     @extend .py-2;
+}
+
+label {
+    @extend .f-600;
+}
+
+.form-control {
+    border:1px solid #727274
 }
 
 
@@ -72,16 +80,16 @@ font-size: .5rem;
         height: auto;
     }
    
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {  min-height: 200px !important;
+// /* All Mobile Sizes (devices and browser) */
+// @media only screen and (max-width: 767px) {  min-height: 200px !important;
 
-}
+// }
 
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {  min-height: 200px !important; }
+// /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+// @media only screen and (min-width: 480px) and (max-width: 767px) {  min-height: 200px !important; }
 
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {  min-height: 200px !important; }
+// /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+// @media only screen and (max-width: 479px) {  min-height: 200px !important; }
 
 }
 
@@ -89,4 +97,21 @@ font-size: .5rem;
 
 .pad-right-0{
     padding-right:0;
+}
+
+.f-600{
+    font-weight: 600;
+}
+
+.img-h-200{
+    /* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {  height: 200px !important; }
+@media only screen and (min-width: 767px) {  height: 250px !important; }
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {  height: 200px !important; }
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {  height: 200px !important;}
+
 }

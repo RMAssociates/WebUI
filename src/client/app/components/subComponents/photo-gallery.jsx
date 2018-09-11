@@ -12,8 +12,7 @@ const PhotoGallery = () => (
           src="public/assets/reception.jpg"
           data-holder-rendered="true"
         />
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
+        <p className="card-text">Reception Area
         </p>
       </div>
       <div className="card  col-md-6">
@@ -24,8 +23,7 @@ const PhotoGallery = () => (
           src="public/assets/chair1.jpg"
           data-holder-rendered="true"
         />
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to
-                 additional content. This content is a little bit longer.
+        <p className="card-text">Our comfortable treatment room with heat and massage chair and tv for your entertainment.
         </p>
       </div>
       <div className="card  col-md-6">
@@ -36,8 +34,7 @@ const PhotoGallery = () => (
           src="public/assets/chair2.jpg"
           data-holder-rendered="true"
         />
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to
-               additional content.This content is a little bit longer.
+        <p className="card-text">Comfortable treatment areas.
         </p>
       </div>
 
@@ -49,8 +46,7 @@ const PhotoGallery = () => (
           src="public/assets/sterilize.jpg"
           data-holder-rendered="true"
         />
-        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to
-               additional content.This content is a little bit longer.
+        <p className="card-text">Sterilization Center.
         </p>
       </div>
     </div>

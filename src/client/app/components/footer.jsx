@@ -15,7 +15,7 @@ export default function Footer(props) {
           </a>
         </div>
         <div>
-          <p className="text-muted">© 2018 Town Center Dental. All rights reserved. </p>
+          <p className="text-muted">© 2018 Leaside Village Dental. All rights reserved. </p>
         </div>
 
       </div>
