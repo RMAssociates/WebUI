@@ -10,7 +10,6 @@ const Cosmetic = () => (
     <ul>
       <li>Teeth Whitening</li>
       <li>Tooth-Colored Fillings</li>
-      <li>Crowns</li>
       <li>Bonding</li>
       <li>Veneers</li>
       <li>Invisalign</li>
@@ -18,7 +17,7 @@ const Cosmetic = () => (
     </ul>
     <h4>IMPROVING YOUR SMILE</h4>
     <p>
-        Whether you want a simple teeth whitening or a more involved procedure such as dental implants or veneers, our professionals can provide you with the confident smile you deserve. Our dental practice has remained updated on the latest in dental technology and cosmetic procedures to allow for nearly imperceptible adjustments. Schedule a consultation with our Leaside Village Dental cosmetic dentists to help decide your best course of action.
+        Whether you want a simple teeth whitening or a more involved procedure such as dental implants or veneers, our professionals can provide you with the confident smile you deserve. Our dental practice has remained updated on the latest in dental technology and cosmetic procedures to allow for nearly imperceptible adjustments. Schedule a consultation with our dentists to help decide your best course of action.
     </p>
     <p>
       To schedule your cosmetic dentistry appointment, contact us by calling 647-346-3368 today!

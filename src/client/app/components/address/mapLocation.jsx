@@ -2,7 +2,7 @@ import React from 'react';
 
 export default () => (
   <div className="mt-3">
-    <h5 className="text-center"> Conveniently located in the Longos plaza on Laird Drive, South of Eglinton with ample parking.</h5>
+    <h5 className="text-center"> Conveniently located in the Longos plaza on Laird Drive, South of Eglinton with ample free parking.</h5>
     <div className="text-center"><a>85 Laird Dr Suite 203, East York, ON M4G 3T7, Canada</a></div>
     <div className="text-center"><button className="btn btn-outline btn-success m-3">Write Review</button></div>
     <div className="map-responsive mt-3">

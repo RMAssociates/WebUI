@@ -26,7 +26,7 @@ export const WorkHours = () => (
 
 
         <dt className="col-5">Saturday</dt>
-        <dd className="col-7">07:00 AM - 06:00 PM</dd>
+        <dd className="col-7">09:00 AM - 06:00 PM</dd>
 
         <dt className="col-5">Sunday</dt>
         <dd className="col-7 text-danger">Closed</dd>
