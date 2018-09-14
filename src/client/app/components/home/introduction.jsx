@@ -16,9 +16,9 @@ export default function Introduction() {
          and the surrounding areas. Our practice creates an
          environment of care and trust. Our wide range of services conveniently address your oral care needs.
       </p>
-      <div className="row">
+      {/* <div className="row">
         <div className="col-md-6 my-3 f-600">
-          <img src="public/assets/irfan-momin1.png" className="rounded-circle float-left img-fluid img-h-200" alt="..." />
+          <img src="public/assets/irfan-momin1.png" className="rounded-circle float-left img-fluid img-h-200" alt="Dr. Irfan Momin" />
         Led by Dr. Sohila Methani, who features close to 20 years of
          dental experience,
         </div>
@@ -27,10 +27,10 @@ export default function Introduction() {
         Dr. Irfan Momin completed his DDS from University of California San Francisco, school of dentistry in 2010 with an award for professional development. He has been practicing in the GTA ever since. Prior to this, he had been practicing dentistry in India for almost a decade. Dr. Momin is passionate about dentistry and about providing the best possible care for his patients.
         When he is not working on his passion, he likes playing cricket, traveling and spending time with his family.
         </div>
-      </div>
+      </div> */}
       <div className="row">
         <div>
-          <ul>
+          <ul className="introduction">
             {/* Why choose us? */}
             <li>Accepting new patients </li>
             <li>Comfortable, relaxing environment </li>
