@@ -38,13 +38,6 @@ const reviewRender = (review) => {
   );
 };
 
-const googleReviews = () =>
-  // const { reviews } = mockPlaces.result.reviews;
-  (
-    <div>
-      {mockPlaces.result.reviews.map(review => reviewRender(review))}
-    </div>
-  );
 
 class GoogleReview extends React.Component {
   constructor(props) {
