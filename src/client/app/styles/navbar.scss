@@ -4,7 +4,7 @@
     margin-top:12px;
 }
 
-.nav-link{ color:#218838;}
+.nav-link{ color:#218838; font-size: large; padding:1rem !important}
 .nav-brand-img {
     max-width: 250px;
 }
@@ -26,4 +26,8 @@
 .navbar-right-section{
     margin-bottom: 1px;
     font-size: x-large;
+    -webkit-animation-name: contactNumber; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: contactNumber;
+    animation-duration: 10s;
 }

@@ -10,13 +10,18 @@ const handleSubmitHandle = (e, data) => {
 
 // eslint-disable-next-line
 class RequestAppointmentFormC extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { view: false };
+  }
   render() {
     const {
       handleSubmit, pristine, reset, submitting,
     } = this.props;
-    return (
+    return (<div>
+      { !this.state.view &&
       <div className="m-2">
-        <form onSubmit={handleSubmit(data => ContactUs.send(data))}>
+        <form onSubmit={handleSubmit(data => ContactUs.send(data).then(response => this.setState({ view: true })))}>
           <div className="form-group  w-75">
             <label htmlFor="name">Name</label>
             <Field
@@ -59,7 +64,10 @@ class RequestAppointmentFormC extends Component {
           >Submit
           </button>
         </form>
-      </div>
+                           </div>
+      }
+      { this.state.view && <p> Thanks for your message , we will contact you shortly </p> }
+    </div>
     );
   }
 }

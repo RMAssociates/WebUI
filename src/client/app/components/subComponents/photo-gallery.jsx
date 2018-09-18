@@ -2,7 +2,7 @@ import React from 'react';
 
 const PhotoGallery = () => (
   <div>
-    <h3>Gallery </h3>
+    <h1 className="my-3 display-4">Gallery </h1>
     <div className="row">
       <div className="card col-md-6">
         <img
@@ -12,7 +12,7 @@ const PhotoGallery = () => (
           src="public/assets/reception.jpg"
           data-holder-rendered="true"
         />
-        <p className="card-text">Reception Area
+        <p className="card-text lead my-2">Reception Area
         </p>
       </div>
       <div className="card  col-md-6">
@@ -23,7 +23,7 @@ const PhotoGallery = () => (
           src="public/assets/chair1.jpg"
           data-holder-rendered="true"
         />
-        <p className="card-text">Our comfortable treatment room with heat and massage chair and tv for your entertainment.
+        <p className="card-text  lead my-2">Our comfortable treatment room with heat and massage chair and tv for your entertainment.
         </p>
       </div>
       <div className="card  col-md-6">
@@ -34,7 +34,7 @@ const PhotoGallery = () => (
           src="public/assets/chair2.jpg"
           data-holder-rendered="true"
         />
-        <p className="card-text">Comfortable treatment areas.
+        <p className="card-text  lead my-2">Comfortable treatment areas.
         </p>
       </div>
 
@@ -46,7 +46,7 @@ const PhotoGallery = () => (
           src="public/assets/sterilize.jpg"
           data-holder-rendered="true"
         />
-        <p className="card-text">Sterilization Center.
+        <p className="card-text  lead my-2">Sterilization Center.
         </p>
       </div>
     </div>
