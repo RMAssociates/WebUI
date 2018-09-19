@@ -1,10 +1,15 @@
 
 import React from 'react';
+import lottie from 'lottie-web';
+import bm from '../../assets/json/body.json';
+import likeJson from '../../assets/json/like.json';
 import mockPlaces from '../../../../server/API.Cloud/places.json';
 
 const Ratings = actual => (
   <div className="star-rating my-3 text-center text-md-left">
-    {[1, 2, 3, 4, 5].map(i => <span className="fa fa-star" />)}
+    {/* {[1, 2, 3, 4, 5].map(i => <span className="fa fa-star" />)} */}
+    <div className="rating-animation-size" id="animationl" />
+    {/* <div className="like-anim-size" id="anim-like" /> */}
   </div>
 );
 
@@ -45,6 +50,26 @@ class GoogleReview extends React.Component {
     this.state = { count: 0 };
     this.handleClickPrevious = this.handleClickPrevious.bind(this);
     this.handleClickNext = this.handleClickNext.bind(this);
+  }
+  componentDidMount() {
+    const ele = document.getElementById('animationl');
+    console.log('ell', ele);
+    lottie.loadAnimation({
+      container: ele,
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      animationData: bm,
+    });
+
+    lottie.loadAnimation({
+      container: document.getElementById('anim-like'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      animationData: likeJson,
+    });
+    
   }
   handleClickPrevious() {
     if (this.state.count > 0) {
