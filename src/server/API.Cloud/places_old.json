@@ -96,7 +96,7 @@
         "international_phone_number": "+1 647-346-3368",
         "name": "Leaside Village Dental",
         "opening_hours": {
-            "open_now": true,
+            "open_now": false,
             "periods": [
                 {
                     "close": {
@@ -105,7 +105,7 @@
                     },
                     "open": {
                         "day": 2,
-                        "time": "1000"
+                        "time": "1100"
                     }
                 },
                 {
@@ -115,7 +115,7 @@
                     },
                     "open": {
                         "day": 3,
-                        "time": "1000"
+                        "time": "1100"
                     }
                 },
                 {
@@ -125,13 +125,13 @@
                     },
                     "open": {
                         "day": 4,
-                        "time": "1000"
+                        "time": "1100"
                     }
                 },
                 {
                     "close": {
                         "day": 5,
-                        "time": "1700"
+                        "time": "1900"
                     },
                     "open": {
                         "day": 5,
@@ -151,10 +151,10 @@
             ],
             "weekday_text": [
                 "Monday: Closed",
-                "Tuesday: 10:00 AM – 7:00 PM",
-                "Wednesday: 10:00 AM – 7:00 PM",
-                "Thursday: 10:00 AM – 7:00 PM",
-                "Friday: 11:00 AM – 5:00 PM",
+                "Tuesday: 11:00 AM – 7:00 PM",
+                "Wednesday: 11:00 AM – 7:00 PM",
+                "Thursday: 11:00 AM – 7:00 PM",
+                "Friday: 11:00 AM – 7:00 PM",
                 "Saturday: 9:00 AM – 6:00 PM",
                 "Sunday: Closed"
             ]
@@ -164,48 +164,28 @@
             "compound_code": "PJ4Q+6G Toronto, Ontario, Canada",
             "global_code": "87M2PJ4Q+6G"
         },
-        "rating": 4.8,
-        "reference": "ChIJmbJj79zM1IkRSEqKfdE_WsA",
+        "rating": 5,
+        "reference": "CmRSAAAAO02rL0CsJP4W6rdWmTrF3OPbR72QYaQkHVU-ES0GoXJSj2n2LXTOJWrVZiDBWP3S6aQf_evjEakmwJCVLgcYZY2roDOpiuOvTJfPe8OUaZOhX0WjuH6vpGk3_SL7ImYTEhBndk6UkqtRNvJp1wsVxw-qGhTN46Qee9hOrBgBYTWuo1d0bdZREg",
         "reviews": [
-            {
-                "author_name": "Anjum Momin",
-                "author_url": "https://www.google.com/maps/contrib/108472639189443768526/reviews",
-                "language": "en",
-                "profile_photo_url": "https://lh6.googleusercontent.com/-UPjIyNWohT4/AAAAAAAAAAI/AAAAAAAABB8/UZoD8z1Aj44/s128-c0x00000000-cc-rp-mo/photo.jpg",
-                "rating": 5,
-                "relative_time_description": "4 months ago",
-                "text": "It's been a great experience over here. Doctors here are so gentle, caring and professional. I am so thankful of them.The staff also very friendly. I recommend this place.",
-                "time": 1541602016
-            },
             {
                 "author_name": "Sara W",
                 "author_url": "https://www.google.com/maps/contrib/118350917448234660084/reviews",
                 "language": "en",
-                "profile_photo_url": "https://lh6.googleusercontent.com/-TKTbS3XnMdA/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcvv_NQfo8xuGydnBgR8MfRKBHFPA/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "profile_photo_url": "https://lh6.googleusercontent.com/-TKTbS3XnMdA/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7qKwxos4tMB0_AulYg873UaH_Im_g/s128-c0x00000000-cc-rp-mo/photo.jpg",
                 "rating": 5,
-                "relative_time_description": "7 months ago",
+                "relative_time_description": "a week ago",
                 "text": "I would like to share with everyone the most amazing experience I had at Leaside Village Dental!! As soon as I stepped foot in the office I felt so comfortable. The office and treatment rooms are so clean and it smells like a spa! I have always had a strong fear of going to the dentist, but after meeting Dr. Methani and her wonderful staff they have changed the way I see going to the dentist. She explained every detail of my mouth to me and all of my treatment options, not once did I feel pressured or nervous. I highly recommend Leaside Village Dental to anyone who is anxious in a dental clinic or just looking for a new dentist in general. Thank you so much for changing my mind about the dentist, I wish I could give 10 stars!",
                 "time": 1533737900
             },
             {
-                "author_name": "Shoheb Sunesara",
-                "author_url": "https://www.google.com/maps/contrib/104881394179484380516/reviews",
+                "author_name": "Safiya Bhabha",
+                "author_url": "https://www.google.com/maps/contrib/104546949028520144864/reviews",
                 "language": "en",
-                "profile_photo_url": "https://lh3.googleusercontent.com/-sxQZ5JnvPA4/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reQB0ZYSBLjLXVHnKrHWI9IUwb1Mg/s128-c0x00000000-cc-rp-mo/photo.jpg",
+                "profile_photo_url": "https://lh6.googleusercontent.com/--Fl-S6AeX6Y/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7rNZrH4Q3ZG7cdsqNTLBQzB5SgQKg/s128-c0x00000000-cc-rp-mo/photo.jpg",
                 "rating": 5,
-                "relative_time_description": "4 months ago",
-                "text": "Dentist and staff are really Caring and comforting, Salute to their professionalism and expertise. Ethical Dentistry at its Best\nCheers to the entire team",
-                "time": 1539811852
-            },
-            {
-                "author_name": "Andreas Koch",
-                "author_url": "https://www.google.com/maps/contrib/106289807264312792484/reviews",
-                "language": "en",
-                "profile_photo_url": "https://lh6.googleusercontent.com/-FEdEibzSrCE/AAAAAAAAAAI/AAAAAAAAAU4/kpjTlB7pMH0/s128-c0x00000000-cc-rp-mo/photo.jpg",
-                "rating": 5,
-                "relative_time_description": "5 months ago",
-                "text": "I've been to many dentists over the years, but none have offered the high level of care and communication that both dentists (Mr. & Mrs. Methani), dental hygienists (Carly), and staff provide. Switching to Leaside Village Dental was a great move and I tell my friends to do the same.",
-                "time": 1539702878
+                "relative_time_description": "7 months ago",
+                "text": "Dr. Methani and her hygienist are AMAZING! They were so gentle with my four year old that he loved his experience and wants to play dentist everyday! She filled his cavity without any unnecessary procedures (unlike other dentists who insists small children need to be put under general anesthesia just to fill a cavity!) and during the procedure he hardly flinched! Both me and him left with huge smiles on our faces! I was literally searching for a dentist like her for two years, I am so happy to have found her and my son and I will likely be her patient for life!",
+                "time": 1515779185
             },
             {
                 "author_name": "Helen Prancic",
@@ -213,7 +193,7 @@
                 "language": "en",
                 "profile_photo_url": "https://lh5.googleusercontent.com/-Hxo5EJE1NSE/AAAAAAAAAAI/AAAAAAAAAXg/imzZZM-cgYA/s128-c0x00000000-cc-rp-mo/photo.jpg",
                 "rating": 5,
-                "relative_time_description": "a year ago",
+                "relative_time_description": "4 months ago",
                 "text": "Dr. Methani and staff of Leaside Village Dental provide exceptional dental care with very close attention to the comfort of their patients. I am very grateful and relieved to know that every appointment will be positive and pain free!",
                 "time": 1523386608
             },
@@ -223,7 +203,7 @@
                 "language": "en",
                 "profile_photo_url": "https://lh5.googleusercontent.com/-1Wzh9kDO3Yo/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7oyWUzWiBRaW6-hEaeMAtGw-Z-jew/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg",
                 "rating": 5,
-                "relative_time_description": "a year ago",
+                "relative_time_description": "4 months ago",
                 "text": "So I will start by saying that since I was young I have been very uncomfortable, scared and anxious to go to the dentist. This is because of a terribly painful experience I had as a kid thanks to a horrible dentist.  As a result, I became terrified of needles in my mouth. However, after not going to the dentist for a little while, I needed to get some fillings done and fix older fillings that began to degrade. I decided to give Leaside Village Dental a shot because of the amazing reviews and because it was close to my house. What was the result?  Dr. Methani, her hygienist and her assistant were hands down the best dentists I have ever been to in my life. No exaggeration it was the best dental experience I have ever had.  Dr. Methani explained everything and was so gentle and careful that I somehow didn't feel the needles AT ALL. In fact,  I felt relaxed the whole time. I don't know how she does it but somehow I didn't feel a thing!!! The work she does is very impressive. Additionally, Dr. Methani was incredibly thorough, professional and very friendly. She and her staff made me feel very comfortable at all times and I could tell she was very passionate about her work. Lastly, the work that Dr. Methani did on my teeth was incredible. She was very thorough and so very careful with everything she was doing. I really felt I was in good hands the whole time. And the results speak for themselves,  Dr. Methani fixed everything that needed to be done perfectly.  By my last visit I wasn't even afraid of needles anymore, Dr. Methani somehow managed to get rid of my fear of dentists and needles because she was so gentle and careful. If you have ANY fears at all about going to the dentist then I am confident that there is no better dentist than Dr. Methani. I know understand why she only has 5 star reviews. This is the dentist I have been looking for and I am now recommending Leaside Village Dental to all my family and friends. Thank you Dr. Methani and staff you folks are awesome!",
                 "time": 1524095074
             },
@@ -247,7 +227,6 @@
             "establishment"
         ],
         "url": "https://maps.google.com/?cid=13860460972173052488",
-        "user_ratings_total": 16,
         "utc_offset": -240,
         "vicinity": "85 Laird Drive Suite 203, East York",
         "website": "http://myleasidedentist.com/"

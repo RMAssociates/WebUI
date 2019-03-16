@@ -91,6 +91,9 @@
 
   .rating-animation-size{
     height:50px;
+    @media (min-width: 768px) {  
+      margin-left: -325px;
+    }
   }
   .like-anim-size{
     height:90px;
