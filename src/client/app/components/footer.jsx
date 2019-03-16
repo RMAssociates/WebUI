@@ -11,7 +11,7 @@ export default function Footer(props) {
             target="_blank"
             rel="noopener noreferrer"
             href="https://goo.gl/maps/aFuRBMWRJzQ2"
-          >85 Laird Dr, East York, ON M4G 3T8
+          ># 203 ,  85 Laird Dr, East York, ON M4G 3T8
           </a>
         </div>
         <div>

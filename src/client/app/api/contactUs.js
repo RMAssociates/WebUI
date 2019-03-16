@@ -8,8 +8,8 @@ class ContactUs {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(message),
-    }).then(response => console.log(response))
-      .catch(error => error.json());
+    }).then(response => true)
+      .catch(error => false);
   }
 }
 

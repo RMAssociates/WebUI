@@ -2,7 +2,7 @@ import React from 'react';
 // eslint-disable-next-line
 export const AboutUs = () => (
   <div className="pad-l-b">
-    <h2>About Us</h2>
+    <h1 className="my-3 display-4">About Us</h1>
     <p>
 At Leaside Village Dental, we pride ourselves in providing highly individualized dental care.
 We realize that the vast majority of patients have some form of dental anxiety. Hence, we ensure

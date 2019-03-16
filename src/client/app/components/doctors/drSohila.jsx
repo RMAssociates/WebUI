@@ -5,7 +5,7 @@ export default () => (
     <div>
       <h2>Dr. Sohila Methani</h2>
       <p>
-Dr. Methani has been treating patients for the last 16 years both as a general dentist and a Prosthodontist
+Dr. Methani has been treating patients for the last two decades both as a general dentist and a Prosthodontist
 providing treatment ranging from simple check ups to veneers to extensive full mouth rehabilitation and
 maxillofacial prosthodontics. Throughout her extensive experience, her aim has been to provide the most
 comfortable setting and the most gentle yet professional care possible, which led her to establishing

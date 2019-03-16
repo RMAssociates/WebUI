@@ -72,14 +72,14 @@ export default function NavigationBar(props) {
             <NavLink className="nav-link" to="/gallery">Gallery</NavLink>
           </li>
           <li className="nav-item navbar-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <NavLink className="nav-link" to="/meet-us">Meet Us</NavLink>
+            <NavLink className="nav-link" to="/meet-us">Meet our team</NavLink>
           </li>
-          <li className="nav-item navbar-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          {/* <li className="nav-item navbar-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <NavLink className="nav-link" to="/promotions">Specials</NavLink>
           </li>
           <li className="nav-item navbar-item" data-toggle="collapse" data-target=".navbar-collapse.show">
             <NavLink className="nav-link" to="/contact">Contact</NavLink>
-          </li>
+          </li> */}
         </ul>
 
       </div>

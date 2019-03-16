@@ -3,7 +3,7 @@ import { bindActionCreators } from 'redux';
 import { Provider, connect } from 'react-redux';
 import { render } from 'react-dom';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   Redirect,

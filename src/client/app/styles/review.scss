@@ -83,10 +83,17 @@
   .btn-review{
     @extend .btn;
     @extend .btn-outline-success;
-    min-width: 120px;
+    min-width: 100px;
     @media (min-width: 768px) {  
       min-width: 200px;
     }
+  }
+
+  .rating-animation-size{
+    height:50px;
+  }
+  .like-anim-size{
+    height:90px;
   }
 
   // #button-group {
