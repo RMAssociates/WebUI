@@ -3,6 +3,7 @@ import React from 'react';
 import lottie from 'lottie-web';
 import bm from '../../assets/json/body.json';
 import likeJson from '../../assets/json/like.json';
+import PatientThumbsUp from '../../assets/json/PatientThumbsUp.json';
 import mockPlaces from '../../../../server/API.Cloud/places.json';
 
 const Ratings = actual => (
@@ -63,13 +64,12 @@ class GoogleReview extends React.Component {
     });
 
     lottie.loadAnimation({
-      container: document.getElementById('anim-like'),
+      container: document.getElementById('PatientThumbsUp'),
       renderer: 'svg',
       loop: true,
       autoplay: true,
-      animationData: likeJson,
+      animationData: PatientThumbsUp,
     });
-    
   }
   handleClickPrevious() {
     if (this.state.count > 0) {
@@ -88,7 +88,7 @@ class GoogleReview extends React.Component {
   render() {
     return (
       <div className="reviews row blockquote review-item">
-        <p className="col-sm-12 lead text-center f-600">
+        <p className="col-sm-12 lead text-center">
         Read why our patients love us !
         </p>
         <div className="btn-group offset-sm-5 offset-3">

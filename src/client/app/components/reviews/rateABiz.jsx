@@ -68,7 +68,7 @@ class RateABizReview extends React.Component {
   render() {
     return (
       <div className="reviews row blockquote review-item">
-        <p className="col-sm-12 lead text-center f-600">
+        <p className="col-sm-12 lead text-center">
         Read why our patients love us !
         </p>
         <div className="btn-group offset-sm-5 offset-3">
