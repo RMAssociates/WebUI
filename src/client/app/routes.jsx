@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 
 import { ServiceContainer } from './components/highOrderComponents/servicesContainer';
 import { AboutUs } from './components/subComponents/about-us';
-import { MeetOurDoctor } from './components/subComponents/meet-our-doctor';
+import DoctorsContainer from './components/highOrderComponents/doctorsContainer';
 import PhotoGallery from './components/subComponents/photo-gallery';
 import { Accordion } from './components/subComponents/accordion';
 import AddressPage from './components/address/addressPage';
@@ -13,7 +13,7 @@ const Routes = () => (
     <div className="col-md-9">
       <Route path="/services" component={ServiceContainer} />
       <Route path="/about-us" component={AboutUs} />
-      <Route path="/meet-us" component={MeetOurDoctor} />
+      <Route path="/meet-us" component={DoctorsContainer} />
       <Route exact path="/gallery" component={PhotoGallery} />
       <Route exact path="/address" component={AddressPage} />
       <Route exact path="/appointment" component={AddressPage} />

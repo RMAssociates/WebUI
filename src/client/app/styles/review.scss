@@ -79,3 +79,19 @@
       background-clip: padding-box;
       cursor: pointer;
   }
+
+  .btn-review{
+    @extend .btn;
+    @extend .btn-outline-success;
+    min-width: 120px;
+    @media (min-width: 768px) {  
+      min-width: 200px;
+    }
+  }
+
+  // #button-group {
+  //   margin: auto;
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: center;
+  // }
