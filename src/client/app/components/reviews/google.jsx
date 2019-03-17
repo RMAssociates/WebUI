@@ -91,7 +91,7 @@ class GoogleReview extends React.Component {
         <p className="col-sm-12 lead text-center">
         Read why our patients love us !
         </p>
-        <div className="btn-group offset-sm-5 offset-3">
+        <div className="btn-group offset-md-5 offset-2">
           <button type="button" className="review-prev" onClick={() => this.handleClickPrevious()}>
             <i className="fa fa-angle-left fa-2x" />
           </button>

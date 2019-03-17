@@ -83,15 +83,12 @@
   .btn-review{
     @extend .btn;
     @extend .btn-outline-success;
-    min-width: 100px;
-    @media (min-width: 768px) {  
-      min-width: 200px;
-    }
+    @extend .col-md-4;
   }
 
   .rating-animation-size{
     height:50px;
-    @media (min-width: 768px) {  
+    @media (min-width: 992px) {  
       margin-left: -325px;
     }
   }
