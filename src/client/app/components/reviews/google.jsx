@@ -3,7 +3,6 @@ import React from 'react';
 import lottie from 'lottie-web';
 import bm from '../../assets/json/body.json';
 import likeJson from '../../assets/json/like.json';
-import PatientThumbsUp from '../../assets/json/PatientThumbsUp.json';
 import mockPlaces from '../../../../server/API.Cloud/places.json';
 
 const Ratings = actual => (
@@ -61,14 +60,6 @@ class GoogleReview extends React.Component {
       loop: true,
       autoplay: true,
       animationData: bm,
-    });
-
-    lottie.loadAnimation({
-      container: document.getElementById('PatientThumbsUp'),
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      animationData: PatientThumbsUp,
     });
   }
   handleClickPrevious() {
