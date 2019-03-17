@@ -61,15 +61,6 @@ class GoogleReview extends React.Component {
       autoplay: true,
       animationData: bm,
     });
-
-    lottie.loadAnimation({
-      container: document.getElementById('anim-like'),
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      animationData: likeJson,
-    });
-    
   }
   handleClickPrevious() {
     if (this.state.count > 0) {
@@ -88,10 +79,10 @@ class GoogleReview extends React.Component {
   render() {
     return (
       <div className="reviews row blockquote review-item">
-        <p className="col-sm-12 lead text-center f-600">
+        <p className="col-sm-12 lead text-center">
         Read why our patients love us !
         </p>
-        <div className="btn-group offset-sm-5 offset-3">
+        <div className="btn-group offset-md-5 offset-2">
           <button type="button" className="review-prev" onClick={() => this.handleClickPrevious()}>
             <i className="fa fa-angle-left fa-2x" />
           </button>

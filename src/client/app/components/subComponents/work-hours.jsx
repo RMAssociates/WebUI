@@ -12,17 +12,17 @@ export const WorkHours = () => (
         <dd className="col-7 text-danger" >Closed</dd>
 
         <dt className="col-5">Tuesday</dt>
-        <dd className="col-7">11:00 AM - 07:00 PM</dd>
+        <dd className="col-7">10:00 AM - 07:00 PM</dd>
 
         <dt className="col-5">Wednesday</dt>
-        <dd className="col-7">11:00 AM - 07:00 PM</dd>
+        <dd className="col-7">10:00 AM - 07:00 PM</dd>
 
         <dt className="col-5">Thursday</dt>
-        <dd className="col-7">11:00 AM - 07:00 PM</dd>
+        <dd className="col-7">10:00 AM - 07:00 PM</dd>
 
 
         <dt className="col-5">Friday</dt>
-        <dd className="col-7">11:00 AM - 07:00 PM</dd>
+        <dd className="col-7">11:00 AM - 05:00 PM</dd>
 
 
         <dt className="col-5">Saturday</dt>
