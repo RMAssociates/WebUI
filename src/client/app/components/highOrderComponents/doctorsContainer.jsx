@@ -2,11 +2,10 @@ import React from 'react';
 import { NavLink, Route } from 'react-router-dom';
 import drSohila from '../doctors/drSohila';
 import drIrfan from '../doctors/drIrfan';
-import carly from '../doctors/rdhCarly'
+import carly from '../doctors/rdhCarly';
 
 // eslint-disable-next-line
 export default ({ match }) =>{
-  console.log('match', match);
   return (
     <div>
       <h1 className="my-3 display-4">Meet our team</h1>
