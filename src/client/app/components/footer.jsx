@@ -13,9 +13,12 @@ export default function Footer(props) {
             href="https://goo.gl/maps/aFuRBMWRJzQ2"
           ># 203 ,  85 Laird Dr, East York, ON M4G 3T8
           </a>
+          <div className="d-inline">
+            <i className="fab fa-twitter" />
+          </div>
         </div>
         <div>
-          <p className="text-muted">© 2018 Leaside Village Dental. All rights reserved. </p>
+          <p className="text-muted">© 2019 Leaside Village Dental. All rights reserved. </p>
         </div>
 
       </div>

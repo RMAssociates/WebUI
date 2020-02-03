@@ -45,7 +45,7 @@
     "whatwg-fetch": "^2.0.4"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.2.0",
+    "@fortawesome/fontawesome-free": "^5.8.1",
     "autoprefixer": "^7.1.5",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.2",

@@ -5,6 +5,7 @@ import Introduction from '../home/introduction';
 import MapLocation from '../address/mapLocation';
 import { WorkHours } from '../subComponents/work-hours';
 import RequestAppointmentForm from '../subComponents/request-appointment-form';
+import OurServices from '../subComponents/our-services';
 
 // eslint-disable-next-line
 export const HomeContainer = () => (
@@ -12,8 +13,8 @@ export const HomeContainer = () => (
     <div className="row">
       <Carousel />
       {/* <HomeServices /> */}
-      
       <Introduction />
+      <OurServices />
     </div>
     <div className="row">
       <div className="col-md-6">

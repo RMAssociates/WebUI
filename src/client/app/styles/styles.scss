@@ -115,3 +115,9 @@ font-size: .5rem;
 @media only screen and (max-width: 479px) {  height: 200px !important;}
 
 }
+
+.bottom{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}

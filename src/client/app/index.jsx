@@ -10,6 +10,7 @@ import {
 } from 'react-router-dom';
 import 'bootstrap';
 import 'font-awesome/scss/font-awesome.scss';
+//import '@fortawesome/fontawesome-free';
 import { HomeContainer } from './components/highOrderComponents/homeContainer';
 // import { ReviewsContainer } from './components/highOrderComponents/reviewsContainer';
 import Routes from './routes';

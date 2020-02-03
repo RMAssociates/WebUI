@@ -17,13 +17,13 @@ export default function Carousel() {
           </div>
         </div>
         <div className="carousel-item ">
-          <img className="d-block" src="public/assets/carousel2.jpg" alt="Second slide" />
+          <img className="d-block" src="public/assets/carousel3.jpg" alt="Second slide" />
           <div className="">
             <p className="text-center py-3">Changing lives for the better, One smile at a time.</p>
           </div>
         </div>
         <div className="carousel-item ">
-          <img className="d-block" src="public/assets/reception1.jpg" alt="Third slide" />
+          <img className="d-block" src="public/assets/carousel4.jpg" alt="Third slide" />
           <div className="">
             <p className="text-center py-3">Changing lives for the better, One smile at a time.</p>
           </div>

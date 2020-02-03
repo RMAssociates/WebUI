@@ -29,6 +29,7 @@ class RequestAppointmentFormC extends Component {
               name="name"
               component="input"
               type="text"
+              id="name"
             />
           </div>
           <div className="form-group  w-50">
@@ -64,7 +65,7 @@ class RequestAppointmentFormC extends Component {
           >Submit
           </button>
         </form>
-                           </div>
+      </div>
       }
       { this.state.view && <p> Thanks for your message , we will contact you shortly </p> }
     </div>

@@ -6,9 +6,9 @@ export default function Introduction() {
   return (
     <div className="col-sm-12 pt-1">
       <h1 className="text-success d-md-block text-center">Welcome to Leaside Village Dental</h1>
-      <h3 className="col-sm-12 text-muted mb-2 d-none d-md-flex">Offering professional oral care solutions.
+      {/* <h3 className="col-sm-12 text-muted mb-2 d-none d-md-flex">Offering professional oral care solutions.
         Changing lives for the better, One smile at a time
-      </h3>
+      </h3> */}
       <p className="col-sm-12 pt-2 text-center">
          For the past several years we have provided dental services to your neighbours in Leaside
          and the surrounding areas. Our practice creates an
