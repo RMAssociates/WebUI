@@ -8,12 +8,29 @@ const handleSubmitHandle = (e, data) => {
   console.log('Submission received!', data);
 };
 
+const required = value => (value ? undefined : 'Required');
+const email = value =>
+  (value && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value) ?
+    'Invalid email address' : undefined);
+
+const renderField = ({
+  input, label, type, meta: { touched, error, warning },
+}) => (
+  <div className="form-group">
+    <label>{label}</label>
+    <input {...input} placeholder={label} type={type} className="form-control" />
+    {touched && ((error && <span className="text-danger">{error}</span>) || (warning && <span>{warning}</span>))}
+
+  </div>
+);
 // eslint-disable-next-line
 class RequestAppointmentFormC extends Component {
   constructor(props) {
     super(props);
     this.state = { view: false };
   }
+
+
   render() {
     const {
       handleSubmit, pristine, reset, submitting,
@@ -22,34 +39,29 @@ class RequestAppointmentFormC extends Component {
       { !this.state.view &&
       <div className="m-2">
         <form onSubmit={handleSubmit(data => ContactUs.send(data).then(response => this.setState({ view: true })))}>
-          <div className="form-group  w-75">
-            <label htmlFor="name">Name</label>
-            <Field
-              className="form-control"
-              name="name"
-              component="input"
-              type="text"
-              id="name"
-            />
-          </div>
-          <div className="form-group  w-50">
-            <label htmlFor="emailAddress">Email address</label>
-            <Field
-              className="form-control"
-              name="emailAddress"
-              component="input"
-              type="text"
-            />
-          </div>
-          <div className="form-group w-50">
-            <label>Phone</label>
-            <Field
-              className="form-control"
-              name="phoneNumber"
-              component="input"
-              type="text"
-            />
-          </div>
+          <Field
+            className="form-control"
+            name="name"
+            component={renderField}
+            type="text"
+            id="name"
+            label="Name"
+          />
+          <Field
+            className="form-control"
+            name="emailAddress"
+            component={renderField}
+            type="text"
+            validate={email}
+            label="Email address"
+          />
+          <Field
+            className="form-control"
+            name="phoneNumber"
+            component={renderField}
+            type="text"
+            label="Phone"
+          />
           <div className="form-group">
             <label>Message</label>
             <Field
