@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+src/client/public/bundle.js
+src/client/public/bundle.js
