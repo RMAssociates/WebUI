@@ -7,6 +7,8 @@ import { WorkHours } from '../subComponents/work-hours';
 import RequestAppointmentForm from '../subComponents/request-appointment-form';
 import OurServices from '../subComponents/our-services';
 
+import EducationVideo from '../subComponents/youTube-edu';
+
 // eslint-disable-next-line
 export const HomeContainer = () => (
   <div>
@@ -14,6 +16,7 @@ export const HomeContainer = () => (
       <Carousel />
       {/* <HomeServices /> */}
       <Introduction />
+      <EducationVideo />
       <OurServices />
     </div>
     <div className="row">
