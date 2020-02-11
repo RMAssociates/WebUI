@@ -18,7 +18,7 @@ export default function Footer(props) {
           </div>
         </div>
         <div>
-          <p className="text-muted">© 2019 Leaside Village Dental. All rights reserved. </p>
+          <p className="text-muted">© 2020 Leaside Village Dental. All rights reserved. </p>
         </div>
 
       </div>

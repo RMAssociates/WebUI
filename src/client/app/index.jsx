@@ -17,6 +17,7 @@ import { HomeContainer } from './components/highOrderComponents/homeContainer';
 import Routes from './routes';
 import Header from './components/header';
 import Footer from './components/footer';
+import ScrollToTop from './components/utilities/scrollOnNavigate';
 import style from './styles/main.scss';
 import configureStore from './redux/store/configureStore';
 
@@ -38,19 +39,21 @@ const App = () => (
     reCaptchaKey="6Lcsf9UUAAAAAAPHCXm-MS9zMtEqGD5N9U-x6zlO"
   >
     <Router>
-      <div className="container">
-        <Header />
-        <Switch>
-          <Route exact path="/" component={HomeContainer} />
-          <div className="mb-2">
-            <Routes />
-            <div className="col-md-4" id="responsive-reviews-module" />
-            {/* <ReviewsContainer /> */}
-          </div>
-          <Redirect from="*" to="/" />
-        </Switch>
-        <Footer />
-      </div>
+      <ScrollToTop>
+        <div className="container">
+          <Header />
+          <Switch>
+            <Route exact path="/" component={HomeContainer} />
+            <div className="mb-2">
+              <Routes />
+              <div className="col-md-4" id="responsive-reviews-module" />
+              {/* <ReviewsContainer /> */}
+            </div>
+            <Redirect from="*" to="/" />
+          </Switch>
+          <Footer />
+        </div>
+      </ScrollToTop>
     </Router>
     <GoogleReCaptcha onVerify={token => console.log(token)} />
   </GoogleReCaptchaProvider>);

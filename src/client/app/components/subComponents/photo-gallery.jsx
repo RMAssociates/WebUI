@@ -9,7 +9,7 @@ const PhotoGallery = () => (
           className="img-fluid"
           data-src="holder.js/100px280/thumb"
           alt="100%x280"
-          src="public/assets/reception.jpg"
+          src="assets/reception.jpg"
           data-holder-rendered="true"
         />
         <p className="card-text lead my-2">Reception Area
@@ -20,7 +20,7 @@ const PhotoGallery = () => (
           className="img-fluid"
           data-src="holder.js/100px280/thumb"
           alt="100%x280"
-          src="public/assets/chair1.jpg"
+          src="assets/chair1.jpg"
           data-holder-rendered="true"
         />
         <p className="card-text  lead my-2">Our comfortable treatment room with heat and massage chair and tv for your entertainment.
@@ -31,7 +31,7 @@ const PhotoGallery = () => (
           className="img-fluid"
           data-src="holder.js/100px280/thumb"
           alt="100%x280"
-          src="public/assets/chair2.jpg"
+          src="assets/chair2.jpg"
           data-holder-rendered="true"
         />
         <p className="card-text  lead my-2">Comfortable treatment areas.
@@ -43,7 +43,7 @@ const PhotoGallery = () => (
           className="img-fluid"
           data-src="holder.js/100px280/thumb"
           alt="100%x280"
-          src="public/assets/sterilize.jpg"
+          src="assets/sterilize.jpg"
           data-holder-rendered="true"
         />
         <p className="card-text  lead my-2">Sterilization Center.

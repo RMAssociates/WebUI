@@ -1,0 +1,18 @@
+.carousel{
+
+    .p-size4 {
+        color: rgba(72, 74, 76, 0.831);            
+        font-size: 1rem;
+        font-weight:200;
+        text-align: center;
+    }
+
+        @media (min-width: 992px){
+        .p-size4 {
+            color: rgba(72, 74, 76, 0.831);            
+            font-size: 3.5rem;
+            font-weight: 300;
+            line-height: 1.2;
+        }
+    }
+}

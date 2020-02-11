@@ -18,6 +18,7 @@ import periodontics from '../services/periodontics';
 import sedationDentistry from '../services/sedation-dentistry';
 import teethWhitening from '../services/teeth-whitening';
 import invisalignBraces from '../services/invisalign-braces';
+import veeners from '../services/veeners';
 
 export const ServiceContainer = ({ match }) => (
   <div className="m-4">
@@ -36,6 +37,7 @@ export const ServiceContainer = ({ match }) => (
     <Route exact path={`${match.url}/sedation-dentistry`} component={sedationDentistry} />
     <Route exact path={`${match.url}/teeth-whitening`} component={teethWhitening} />
     <Route exact path={`${match.url}/invisalign-braces`} component={invisalignBraces} />
+    <Route exact path={`${match.url}/veeners`} component={veeners} />
     {/*
     <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
       <Link to={`${match.url}/rendering`}>Rendering with React</Link>

@@ -1,6 +1,6 @@
 $body-bg: white;
 $body-color: rgb(54, 53, 53);
-$font-family-base: 'Roboto', sans-serif;
+$font-family-base: 'Open Sans', sans-serif;
 $font-size-base: 16;
 //$text-emphasize-color: #4b4c4dd4;
 
@@ -15,6 +15,26 @@ body{
     display: block;
     margin: auto;
 }
+.lh-175{line-height: 1.75;}
 // font-family: 'Playfair Display', serif;
 // font-family: 'Open Sans', sans-serif;
 
+.date-today{
+    @extend .bg-success;
+    @extend .text-white;
+    @extend .p-1;
+}
+
+.bg-card-head{
+    background-color: #7c9682 !important;
+}
+.intro-icons{
+    color: green;
+    vertical-align: middle;
+}
+
+.display-5{
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.7;
+}

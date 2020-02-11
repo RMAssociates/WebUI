@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import lottie from 'lottie-web';
+import { SocialIcon } from 'react-social-icons';
 import YelpReview from '../reviews/yelp';
 import GoogleReview from '../reviews/google';
 import RateABizReview from '../reviews/rateABiz';
@@ -12,36 +13,36 @@ export default class ReviewContainer extends React.Component {
     this.state = { type: 0 };
   }
   componentDidMount() {
-    lottie.loadAnimation({
-      container: document.getElementById('PatientThumbsUp'),
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      animationData: PatientThumbsUp,
-    });
+    // lottie.loadAnimation({
+    //   container: document.getElementById('PatientThumbsUp'),
+    //   renderer: 'svg',
+    //   loop: true,
+    //   autoplay: true,
+    //   animationData: PatientThumbsUp,
+    // });
   }
   render() {
     const { type } = this.state;
     return (
       <div className="col-12 text-center">
-        <div className="row" role="group" aria-label="Reviews">
+        <div className="row" role="group" aria-label="Reviews">          
           <button
             type="button"
             className={`${type === 0 ? 'active' : ''} btn-review`}
             onClick={() => this.setState({ type: 0 })}
-          >Google
+          ><SocialIcon network="google" /> Google
           </button>
           <button
             type="button"
             className={`${type === 1 ? 'active' : ''} btn-review`}
             onClick={() => this.setState({ type: 1 })}
-          >Yelp
+          > <SocialIcon network="yelp" /> Yelp
           </button>
           <button
             type="button"
             className={`${type === 2 ? 'active' : ''} btn-review`}
             onClick={() => this.setState({ type: 2 })}
-          >Rate A Biz
+          ><SocialIcon network="sharethis" /> Rate A Biz
           </button>
         </div>
         { type === 0 &&

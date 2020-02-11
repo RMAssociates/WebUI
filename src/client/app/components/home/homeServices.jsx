@@ -11,7 +11,7 @@ export default function HomeServices(props) {
               className="img-fluid"
               data-src="holder.js/100px280/thumb"
               alt="100%x280"
-              src="public/assets/homeal1.jpg"
+              src="assets/homeal1.jpg"
               data-holder-rendered="true"
             />
             <p className="card-text">This is a wider card with supporting text below as a natural lead-in
@@ -23,7 +23,7 @@ export default function HomeServices(props) {
               className="img-fluid"
               data-src="holder.js/100px280/thumb"
               alt="100%x280"
-              src="public/assets/homeal2.jpg"
+              src="assets/homeal2.jpg"
               data-holder-rendered="true"
             />
             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -35,7 +35,7 @@ export default function HomeServices(props) {
               className="img-fluid"
               data-src="holder.js/100px280/thumb"
               alt="100%x280"
-              src="public/assets/homeal2.jpg"
+              src="assets/homeal2.jpg"
               data-holder-rendered="true"
             />
             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to

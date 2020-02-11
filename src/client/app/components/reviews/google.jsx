@@ -26,7 +26,7 @@ const reviewRender = (review) => {
       <div className="col-md-9 px-4">
         <Ratings className="float-sm-right" rating={rating} />
         <div id="review-summary">
-          <p className="review-text collapse" id={`collapseSummary${time}`}>{text}
+          <p className="review-text pb-5 collapse" id={`collapseSummary${time}`}>{text}
           </p>
           <a
             className="collapsed"
@@ -84,11 +84,11 @@ class GoogleReview extends React.Component {
         </p>
         <div className="btn-group offset-md-5 offset-2">
           <button type="button" className="review-prev" onClick={() => this.handleClickPrevious()}>
-            <i className="fa fa-angle-left fa-2x" />
+            <i className="material-icons">navigate_before</i>
           </button>
           <p className="px-4 text-dark py-2">Reviews</p>
           <button type="button" className="review-prev" onClick={() => this.handleClickNext()}>
-            <i className="fa fa-angle-right fa-2x" />
+            <i className="material-icons">navigate_next</i>
           </button>
         </div>
         <hr />

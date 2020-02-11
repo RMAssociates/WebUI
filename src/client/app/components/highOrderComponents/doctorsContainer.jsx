@@ -16,7 +16,7 @@ export default ({ match }) =>{
       <div>
         <div>
           <h2>Dr. Sohila Methani</h2>
-          <img src="public/assets/sohila.png" className="rounded-circle float-left img-fluid img-h-200" alt="Dr. Irfan Momin" />
+          <img src="assets/sohila.png" className="rounded-circle float-left img-fluid img-h-200" alt="Dr. Irfan Momin" />
           <p>
 Dr. Methani has been treating patients for the last two decades both as a general dentist and a Prosthodontist
 providing treatment ranging from simple check ups to veneers to extensive full mouth rehabilitation and
@@ -28,7 +28,7 @@ Leaside Village Dental.
         </div>
         <div className="my-5">
           <h2>Dr. Irfan Momin</h2>
-          <img src="public/assets/irfan-momin1.png" className="rounded-circle float-left img-fluid img-h-200" alt="Dr. Irfan Momin" />
+          <img src="assets/irfan-momin1.png" className="rounded-circle float-left img-fluid img-h-200" alt="Dr. Irfan Momin" />
           <p>
   Dr. Irfan Momin completed his DDS from University of California San Francisco, school of dentistry in 2010
    with an award for professional development. He has been practicing in the GTA ever since. Prior to this,
@@ -40,7 +40,7 @@ Leaside Village Dental.
         </div>
         <div className="my-5">
           <h2>Carly Noel, RDH.</h2>
-          <img src="public/assets/carly_white.jpg" className="rounded-circle float-left img-fluid img-h-200" alt="Dr. Irfan Momin" />
+          <img src="assets/carly_white.jpg" className="rounded-circle float-left img-fluid img-h-200" alt="Dr. Irfan Momin" />
           <p>
           Carly received her advanced diploma in dental hygiene in 2016 at Georgian College in Barrie. She joined Leaside
      Village Dental in February 2017. Carly has a genuine passion for providing patients with the optimal level of

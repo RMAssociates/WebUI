@@ -16,10 +16,10 @@ export const HomeContainer = () => (
       <Carousel />
       {/* <HomeServices /> */}
       <Introduction />
-      <EducationVideo />
+      {/* <EducationVideo /> */}
       <OurServices />
     </div>
-    <div className="row">
+    {/* <div className="row">
       <div className="col-md-6">
         <WorkHours />
       </div>
@@ -31,7 +31,7 @@ export const HomeContainer = () => (
           <RequestAppointmentForm />
         </div>
       </div>
-    </div>
+    </div> */}
     <div className="">
       <MapLocation />
     </div>
