@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink, Route } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import drSohila from '../doctors/drSohila';
 import drIrfan from '../doctors/drIrfan';
 import carly from '../doctors/rdhCarly';
@@ -8,6 +9,15 @@ import carly from '../doctors/rdhCarly';
 export default ({ match }) =>{
   return (
     <div>
+      <Helmet>
+        <title>Meet our team @Leaside Village Dental East York , Laird drive</title>
+        <meta
+          name="description"
+          content=" Dr Irfan Momin - completed his DDS from University of California San Francisco, school of dentistry in 2010 with an
+          award for professional development. He has been practicing in the GTA.. | Dr. Methani has been treating patients for the last two decades both as a general dentist and a Prosthodontist
+          providing treatment ranging from simple check ups to veneers to extensive full mouth rehabilitation"
+        />
+      </Helmet>
       <h1 className="my-3 display-4">Meet our team</h1>
       <Route path={`${match.url}/sohila`} component={drSohila} />
       <Route exact path={`${match.url}/irfan`} component={drIrfan} />

@@ -65,7 +65,7 @@ module.exports = {
     }),
   ],
   output: {
-    filename: '[name].bundle.js',
+    filename: '[name].bundle.[hash].js',
     publicPath: '', // Setup any base path you want for a deployed site
     path: BUILD_DIR,
   },

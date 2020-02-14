@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Carousel from '../subComponents/carousel';
 import HomeServices from '../home/homeServices';
 import Introduction from '../home/introduction';
@@ -12,6 +13,14 @@ import EducationVideo from '../subComponents/youTube-edu';
 // eslint-disable-next-line
 export const HomeContainer = () => (
   <div>
+    <Helmet>
+      <title>Leaside Village Dental | Laird , East York Toronto |Emergency Appointment</title>
+      <meta
+        name="description"
+        content="We have provided dental services to your neighbours in Leaside and the surrounding areas. Our practice creates an environment of care and trust. Our wide range of services conveniently address your oral care needs.
+        | Dr. Irfan Momin has joined Leaside village dental."
+      />
+    </Helmet>
     <div className="row">
       <Carousel />
       {/* <HomeServices /> */}
