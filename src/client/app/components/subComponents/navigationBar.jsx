@@ -9,7 +9,7 @@ export default function NavigationBar(props) {
       <div className=" d-none d-md-flex">
         { // eslint-disable-next-line
         <a className="navbar-brand" href="/">
-          <img className="float-left img-fluid-header nav-brand-img" src="public/assets/logo_white_b.jpg" alt="Home" />
+          <img className="float-left img-fluid-header nav-brand-img" src="assets/logo_white_b.jpg" alt="Home" />
 
         </a>
         }
@@ -85,7 +85,7 @@ export default function NavigationBar(props) {
       </div>
       <div className="d-none d-md-flex">
         <div><p className="navbar-right-section text-center">647-346-3368</p>
-          <button className="btn btn-success float-right mb-0">Emergency Appointment</button>
+          <div className="bg-header text-white p-1 float-right mb-0">Emergency Appointment</div>
         </div>
       </div>
 

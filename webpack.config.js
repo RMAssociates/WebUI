@@ -98,7 +98,7 @@ const config = {
     }),
     new CopyWebpackPlugin([
       // Copy directory contents to {output}/to/directory/
-      { from: `${APP_DIR}/assets`, to: `${BUILD_DIR}/assets` },
+      { from: `${APP_DIR}/assets`, to: `${BUILD_DIR}/public/assets` },
     ]),
     new webpack.SourceMapDevToolPlugin({
       filename: '[name].js.map',

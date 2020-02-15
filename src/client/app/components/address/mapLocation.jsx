@@ -1,4 +1,5 @@
 import React from 'react';
+import { BusinessHours } from '../subComponents/business-hours';
 
 export default () => (
   <div className="mt-3">
@@ -14,19 +15,25 @@ export default () => (
       >Write Review
       </button>
     </div>
-
-    <div className="map-responsive mt-3">
-      <iframe
-        width="600"
-        height="500"
-        id="gmap_canvas"
-        src="https://maps.google.com/maps?q=85%20Laird%20Dr%20Suite%20203%2C%20East%20York%2C%20ON%20M4G%203T7%2C%20Canada&t=&z=15&ie=UTF8&iwloc=&output=embed"
-        frameBorder="0"
-        scrolling="no"
-        marginHeight="0"
-        marginWidth="0"
-        title="Leaside Village Dental"
-      />
+    <div className="row">
+      <div className="col-md-7">
+        <div className="map-responsive mt-3">
+          <iframe
+            width="600"
+            height="500"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=85%20Laird%20Dr%20Suite%20203%2C%20East%20York%2C%20ON%20M4G%203T7%2C%20Canada&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            frameBorder="0"
+            scrolling="no"
+            marginHeight="0"
+            marginWidth="0"
+            title="Leaside Village Dental"
+          />
+        </div>
+      </div>
+      <div className="col-md-5">
+        <BusinessHours />
+      </div>
     </div>
   </div>
 );

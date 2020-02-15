@@ -9,7 +9,7 @@ export default function MobileHeader() {
           <a className="navbar-brand" href="/">
             <img
               className="float-left img-fluid-header nav-brand-mobile-img"
-              src="public/assets/logo_white_b.jpg"
+              src="assets/logo_white_b.jpg"
               alt="Home"
             />
           </a>
@@ -56,7 +56,7 @@ export default function MobileHeader() {
         <div className="col-4 no-padding">
           <Route render={({ history }) => (
             <button
-              className="btn btn-outline-success header__button"
+              className="btn btn-outline-success header__button px-0"
               onClick={() => history.push('/address')}
             >Address &amp; Hours
             </button>
