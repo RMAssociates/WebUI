@@ -8,6 +8,7 @@ import PhotoGallery from './components/subComponents/photo-gallery';
 import { Accordion } from './components/subComponents/accordion';
 import AddressPage from './components/address/addressPage';
 import SideContainer from './components/highOrderComponents/sideContainer';
+import AppointmentContainer from './components/highOrderComponents/appointmentContainer';
 
 const Routes = () => (
   <div className="row mt-1">
@@ -17,7 +18,7 @@ const Routes = () => (
       <Route path="/meet-us" component={DoctorsContainer} />
       <Route exact path="/gallery" component={PhotoGallery} />
       <Route exact path="/address" component={AddressPage} />
-      <Route exact path="/appointment" component={AddressPage} />
+      <Route exact path="/appointment" component={AppointmentContainer} />
     </div>
     <div className="col-md-4 mt-md-5">
       {/* <Accordion /> */}
