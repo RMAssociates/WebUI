@@ -10,9 +10,10 @@ export default function Introduction() {
         Changing lives for the better, One smile at a time
       </h3> */}
       <p className="bg-light">
-         For the past several years we have provided dental services to your neighbours in Leaside
-         and the surrounding areas. Our practice creates an
-         environment of care and trust. Our wide range of services conveniently address your oral care needs.
+         For the past several years we have provided quality dental services to your neighbours in Leaside
+         and the surrounding areas. Our practice creates an environment of care and trust.You and 
+         your family can receive the highest level of treatment, including pediatric, prosthodontics, 
+         endodontics, oral surgery, Invisalign, emergency and sedation dentistry.
       </p>
       <ul className="introduction list-inline">
         {/* Why choose us? */}

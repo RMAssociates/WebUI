@@ -6,7 +6,7 @@ export const WorkHours = () => (
            Working Hours
     </div>
     <div className="card-body">
-
+      
       <dl className="row">
         <dt className="col-5">Monday</dt>
         <dd className="col-7 text-danger" >Closed</dd>
