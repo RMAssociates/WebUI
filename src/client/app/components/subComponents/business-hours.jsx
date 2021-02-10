@@ -7,6 +7,7 @@ export const BusinessHours = () =>{
       <div className="card-header bg-card-head text-white text-center lead">
            Business Hours
       </div>
+      
       <div className="p-1">
         <ul className="list-unstyled m-3 lh-175">
           <li>Monday <span className="pull-right text-danger">Closed</span></li>
