@@ -85,6 +85,7 @@ export default function NavigationBar(props) {
       </div>
       <div className="d-none d-md-flex">
         <div><p className="navbar-right-section text-center">647-346-3368</p>
+          <p>info@myleasidedentist.com</p>
           <div className="bg-header text-white p-1 float-right mb-0">Emergency Appointment</div>
         </div>
       </div>
